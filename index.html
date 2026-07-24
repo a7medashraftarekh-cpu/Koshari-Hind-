@@ -1,440 +1,140 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#160707" />
-
-  <meta name="google-site-verification" content="8GS4_0FclioRAn_ylQdUcQL3w4lIWWXC3bVE_ToaC1E" />
-  <meta name="google-site-verification" content="HnhquFYw2lh8CIofU_lqR-5Cli4Y9xJN4ajUUE4ewpo" />
-
+  <meta name="theme-color" content="#0a1f15" />
   <title>كشري هند | مغاغة</title>
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap"
-    rel="stylesheet"
-  >
-
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-
-  <div class="announcement">
-    🍽️ طعم أصيل من 1992 — اطلب دلوقتي من كشري هند مغاغة
-  </div>
+  <div class="announcement">🍽️ طعم أصيل من 1992 — اطلب دلوقتي من كشري هند مغاغة</div>
 
   <header class="site-header">
     <div class="container nav">
-
       <a class="brand" href="#home">
-        <span class="brand-mark">H</span>
-        <span>
-          <b>كشري هند</b>
-          <small>الأكل الأصيل</small>
-        </span>
+        <img src="logo.png" alt="كشري هند" class="brand-logo">
+        <span><b>كشري هند</b><small>الأكل الأصيل</small></span>
       </a>
-
       <nav>
         <a href="#home">الرئيسية</a>
         <a href="#menu">المنيو</a>
         <a href="#offers">العروض</a>
         <a href="#contact">الفروع</a>
       </nav>
-
-      <button class="cart-btn" onclick="openCart()">
-        🛒 <span>السلة</span><b id="cartCount">0</b>
-      </button>
-
+      <button class="cart-btn" onclick="openCart()">🛒 <span>السلة</span><b id="cartCount">0</b></button>
       <button class="menu-toggle" onclick="toggleMobileNav()">☰</button>
-
     </div>
-
     <div id="mobileNav" class="mobile-nav">
-      <a href="#home">الرئيسية</a>
-      <a href="#menu">المنيو</a>
-      <a href="#offers">العروض</a>
-      <a href="#contact">الفروع</a>
+      <a href="#home">الرئيسية</a><a href="#menu">المنيو</a><a href="#offers">العروض</a><a href="#contact">الفروع</a>
     </div>
   </header>
 
   <main>
-
     <section id="home" class="hero">
       <div class="hero-glow"></div>
-
       <div class="container hero-grid">
-
         <div class="hero-copy">
-
-          <div class="eyebrow">
-            منذ 1992 • مغاغة
-          </div>
-
-          <h1>
-            الطعم اللي<br>
-            <span>مستنيك</span>
-          </h1>
-
-          <p>
-            كشري، بيتزا، مشويات، كريب ووجبات سوري —
-            كل اللي بتحبه في مكان واحد.
-          </p>
-
+          <div class="eyebrow">منذ 1992 • مغاغة</div>
+          <h1>الطعم اللي<br><span>مستنيك</span></h1>
+          <p>كشري، بيتزا، مشويات، كريب ووجبات سوري — كل اللي بتحبه في مكان واحد.</p>
           <div class="hero-actions">
-            <a href="#menu" class="btn primary">
-              شوف المنيو <span>←</span>
-            </a>
-
-            <a href="tel:01210195153" class="btn ghost">
-              📞 اطلب الآن
-            </a>
+            <a href="#menu" class="btn primary">شوف المنيو <span>←</span></a>
+            <a href="tel:01210195153" class="btn ghost">📞 اطلب الآن</a>
           </div>
-
           <div class="hero-stats">
-            <div>
-              <b>1992</b>
-              <small>خبرة وطعم أصيل</small>
-            </div>
-
-            <div>
-              <b>24/7</b>
-              <small>استقبال طلبات</small>
-            </div>
-
-            <div>
-              <b>100%</b>
-              <small>طازة ومحبوبة</small>
-            </div>
+            <div><b>1992</b><small>خبرة وطعم أصيل</small></div>
+            <div><b>24/7</b><small>استقبال طلبات</small></div>
+            <div><b>100%</b><small>طازة ومحبوبة</small></div>
           </div>
-
         </div>
-
         <div class="hero-card">
-
           <div class="plate-shadow"></div>
-
-          <div class="food-plate">🍲</div>
-
-          <div class="floating-tag tag-one">
-            🔥 الأكثر طلبًا
-          </div>
-
-          <div class="floating-tag tag-two">
-            ⭐ طعم أصيل
-          </div>
-
-          <div class="hero-card-bottom">
-            <b>كشري هند</b>
-            <span>طعم يرجعك تاني</span>
-          </div>
-
+          <img src="logo.png" alt="كشري هند" class="hero-logo-img">
+          <div class="floating-tag tag-one">🔥 الأكثر طلبًا</div>
+          <div class="floating-tag tag-two">⭐ طعم أصيل</div>
+          <div class="hero-card-bottom"><b>كشري هند</b><span>طعم يرجعك تاني</span></div>
         </div>
-
       </div>
     </section>
 
     <section class="quick-cats">
-
       <div class="container category-row">
-
-        <button onclick="filterMenu('كشري')">
-          🍲<span>كشري</span>
-        </button>
-
-        <button onclick="filterMenu('بيتزا')">
-          🍕<span>بيتزا</span>
-        </button>
-
-        <button onclick="filterMenu('كريب')">
-          🌯<span>كريب</span>
-        </button>
-
-        <button onclick="filterMenu('مشويات')">
-          🍗<span>مشويات</span>
-        </button>
-
-        <button onclick="filterMenu('سوري')">
-          🥙<span>سوري</span>
-        </button>
-
-        <button onclick="filterMenu('حلو')">
-          🍰<span>حلو</span>
-        </button>
-
+        <button onclick="filterMenu('كشري')">🍲<span>كشري</span></button>
+        <button onclick="filterMenu('بيتزا')">🍕<span>بيتزا</span></button>
+        <button onclick="filterMenu('كريب')">🌯<span>كريب</span></button>
+        <button onclick="filterMenu('مشويات')">🍗<span>مشويات</span></button>
+        <button onclick="filterMenu('سوري')">🥙<span>سوري</span></button>
+        <button onclick="filterMenu('حلو')">🍰<span>حلو</span></button>
       </div>
-
     </section>
 
     <section id="offers" class="section offers-section">
-
       <div class="container">
-
-        <div class="section-heading">
-
-          <div>
-            <span class="eyebrow">اختياراتنا</span>
-            <h2>عروض <span>تستاهل</span></h2>
-          </div>
-
-          <a href="#menu">كل المنيو ←</a>
-
-        </div>
-
+        <div class="section-heading"><div><span class="eyebrow">اختياراتنا</span><h2>عروض <span>تستاهل</span></h2></div><a href="#menu">كل المنيو ←</a></div>
         <div class="offers-grid">
-
-          <article class="offer-card featured">
-
-            <div class="offer-icon">🍛</div>
-
-            <div>
-              <small>عرض التوفير 1</small>
-              <h3>وجبة طاجن لحمة</h3>
-              <p>+ طبق حلو بغاشة سكر ولبن</p>
-              <strong>330 <small>جنيه</small></strong>
-            </div>
-
-          </article>
-
-          <article class="offer-card">
-
-            <div class="offer-icon">🍕</div>
-
-            <div>
-              <small>عرض التوفير 2</small>
-              <h3>فطيرة لحمة + فطيرة فراخ</h3>
-              <p>+ صاروخ سبيسو</p>
-              <strong>260 <small>جنيه</small></strong>
-            </div>
-
-          </article>
-
-          <article class="offer-card">
-
-            <div class="offer-icon">🥘</div>
-
-            <div>
-              <small>وجبات التوفير</small>
-              <h3>وجبة طاجن فراخ</h3>
-              <p>عيش + سلطة + أرز باللبن + بيبسي</p>
-              <strong>75 <small>جنيه</small></strong>
-            </div>
-
-          </article>
-
+          <article class="offer-card featured"><div class="offer-icon">🍛</div><div><small>عرض التوفير 1</small><h3>وجبة طاجن لحمة</h3><p>+ طبق حلو بغاشة سكر ولبن</p><strong>330 <small>جنيه</small></strong></div></article>
+          <article class="offer-card"><div class="offer-icon">🍕</div><div><small>عرض التوفير 2</small><h3>فطيرة لحمة + فطيرة فراخ</h3><p>+ صاروخ سبيسو</p><strong>260 <small>جنيه</small></strong></div></article>
+          <article class="offer-card"><div class="offer-icon">🥘</div><div><small>وجبات التوفير</small><h3>وجبة طاجن فراخ</h3><p>عيش + سلطة + أرز باللبن + بيبسي</p><strong>75 <small>جنيه</small></strong></div></article>
         </div>
-
       </div>
-
     </section>
 
     <section id="menu" class="section menu-section">
-
       <div class="container">
-
         <div class="section-heading">
-
-          <div>
-            <span class="eyebrow">اختار اللي نفسك فيه</span>
-            <h2>الـ <span>منيو</span></h2>
-          </div>
-
-          <div class="search-box">
-            🔍
-            <input
-              id="searchInput"
-              placeholder="دور على أكلك..."
-              oninput="renderMenu()"
-            >
-          </div>
-
+          <div><span class="eyebrow">اختار اللي نفسك فيه</span><h2>الـ <span>منيو</span></h2></div>
+          <div class="search-box">🔍 <input id="searchInput" placeholder="دور على أكلك..." oninput="renderMenu()"></div>
         </div>
-
         <div class="filters" id="filters">
-
           <button class="active" data-filter="الكل">الكل</button>
-          <button data-filter="كشري">كشري</button>
-          <button data-filter="طواجن">طواجن</button>
-          <button data-filter="سوري">وجبات سوري</button>
-          <button data-filter="كريب">كريب</button>
-          <button data-filter="مشويات">مشويات</button>
-          <button data-filter="بيتزا">بيتزا</button>
+          <button data-filter="كشري">كشري</button><button data-filter="طواجن">طواجن</button>
+          <button data-filter="سوري">وجبات سوري</button><button data-filter="كريب">كريب</button>
+          <button data-filter="مشويات">مشويات</button><button data-filter="بيتزا">بيتزا</button>
           <button data-filter="حلو">حلو</button>
-
         </div>
-
         <div id="menuGrid" class="menu-grid"></div>
-
       </div>
-
     </section>
 
     <section class="cta">
-
-      <div class="container cta-inner">
-
-        <div>
-          <span class="eyebrow">جوعان؟</span>
-          <h2>خلي طلبك يوصل لحد عندك 🔥</h2>
-          <p>اتصل بأقرب فرع واطلب أكلك المفضل.</p>
-        </div>
-
-        <a class="btn primary" href="tel:01210195153">
-          اتصل واطلب الآن 📞
-        </a>
-
-      </div>
-
+      <div class="container cta-inner"><div><span class="eyebrow">جوعان؟</span><h2>خلي طلبك يوصل لحد عندك 🔥</h2><p>اتصل بأقرب فرع واطلب أكلك المفضل.</p></div><a class="btn primary" href="tel:01210195153">اتصل واطلب الآن 📞</a></div>
     </section>
 
     <section id="contact" class="section contact-section">
-
       <div class="container">
-
-        <div class="section-heading">
-
-          <div>
-            <span class="eyebrow">أماكننا</span>
-            <h2>فروع <span>مغاغة</span></h2>
-          </div>
-
-        </div>
-
+        <div class="section-heading"><div><span class="eyebrow">أماكننا</span><h2>فروع <span>مغاغة</span></h2></div></div>
         <div class="branches">
-
-          <article class="branch">
-
-            <div class="branch-icon">📍</div>
-
-            <div>
-              <h3>فرع شارع الثورة</h3>
-              <p>شارع الثورة أمام أسواق سيف — مغاغة</p>
-
-              <a href="tel:01210195153">01210195153</a>
-              <a href="tel:01015061338">01015061338</a>
-            </div>
-
-          </article>
-
-          <article class="branch">
-
-            <div class="branch-icon">📍</div>
-
-            <div>
-              <h3>فرع شارع المحطة</h3>
-              <p>شارع المحطة بجوار بنك مصر — مغاغة</p>
-
-              <a href="tel:01206500071">01206500071</a>
-              <a href="tel:01116816266">01116816266</a>
-            </div>
-
-          </article>
-
+          <article class="branch"><div class="branch-icon">📍</div><div><h3>فرع شارع الثورة</h3><p>شارع الثورة أمام أسواق سيف — مغاغة</p><a href="tel:01210195153">01210195153</a> <a href="tel:01015061338">01015061338</a></div></article>
+          <article class="branch"><div class="branch-icon">📍</div><div><h3>فرع شارع المحطة</h3><p>شارع المحطة بجوار بنك مصر — مغاغة</p><a href="tel:01206500071">01206500071</a> <a href="tel:01116816266">01116816266</a></div></article>
         </div>
-
       </div>
-
     </section>
-
   </main>
 
   <footer class="footer">
-
     <div class="container footer-main">
-
-      <div>
-
-        <div class="brand footer-brand">
-          <span class="brand-mark">H</span>
-
-          <span>
-            <b>كشري هند</b>
-            <small>الأكل الأصيل</small>
-          </span>
-        </div>
-
-        <p>
-          من 1992 بنقدم لك الطعم اللي بتحبه.
-        </p>
-
-      </div>
-
-      <div>
-
-        <h4>روابط سريعة</h4>
-
-        <a href="#menu">المنيو</a>
-        <a href="#offers">العروض</a>
-        <a href="#contact">الفروع</a>
-
-      </div>
-
-      <div>
-
-        <h4>تواصل معنا</h4>
-
-        <a href="tel:01210195153">📞 01210195153</a>
-        <a href="tel:01015061338">📞 01015061338</a>
-
-      </div>
-
+      <div><div class="brand footer-brand"><img src="logo.png" alt="كشري هند" class="brand-logo"><span><b>كشري هند</b><small>الأكل الأصيل</small></span></div><p>من 1992 بنقدم لك الطعم اللي بتحبه.</p></div>
+      <div><h4>روابط سريعة</h4><a href="#menu">المنيو</a><a href="#offers">العروض</a><a href="#contact">الفروع</a></div>
+      <div><h4>تواصل معنا</h4><a href="tel:01210195153">📞 01210195153</a><a href="tel:01015061338">📞 01015061338</a></div>
     </div>
-
-    <div class="developer-credit">
-      Designed & Developed by
-      <b>A7MED ASHRAF</b>
-      <span>•</span>
-      <a href="tel:01080343968">01080343968</a>
-    </div>
-
-    <div class="copyright">
-      © 2026 كشري هند — جميع الحقوق محفوظة
-    </div>
-
+    <div class="developer-credit">Designed & Developed by <b>A7MED ASHRAF</b> <span>•</span> <a href="tel:01080343968">01080343968</a></div>
+    <div class="copyright">© 2026 كشري هند — جميع الحقوق محفوظة</div>
   </footer>
 
-  <div
-    id="cartDrawer"
-    class="cart-overlay"
-    onclick="closeCart(event)"
-  >
-
-    <aside
-      class="cart-drawer"
-      onclick="event.stopPropagation()"
-    >
-
-      <div class="cart-head">
-        <h2>سلة الطلب 🛒</h2>
-        <button onclick="closeCart()">×</button>
-      </div>
-
+  <div id="cartDrawer" class="cart-overlay" onclick="closeCart(event)">
+    <aside class="cart-drawer" onclick="event.stopPropagation()">
+      <div class="cart-head"><h2>سلة الطلب 🛒</h2><button onclick="closeCart()">×</button></div>
       <div id="cartItems" class="cart-items"></div>
-
-      <div class="cart-total">
-        <span>الإجمالي</span>
-        <strong id="cartTotal">0 جنيه</strong>
-      </div>
-
-      <button
-        class="btn primary full"
-        onclick="checkout()"
-      >
-        إتمام الطلب عبر واتساب
-      </button>
-
+      <div class="cart-total"><span>الإجمالي</span><strong id="cartTotal">0 جنيه</strong></div>
+      <button class="btn primary full" onclick="checkout()">إتمام الطلب عبر واتساب</button>
     </aside>
-
   </div>
 
   <div id="toast" class="toast"></div>
-
   <script src="script.js"></script>
-
 </body>
-
-  </html>
+</html>
