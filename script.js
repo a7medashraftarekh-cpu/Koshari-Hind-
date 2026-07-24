@@ -63,6 +63,10 @@ const menu = [
  {n:"صلصة حمص",c:"إضافات",p:5,i:"https://images.unsplash.com/photo-1472476443507-c7a0d4c4df94?w=400"},
  {n:"صلصة عدس",c:"إضافات",p:7,i:"https://images.unsplash.com/photo-1472476443507-c7a0d4c4df94?w=400"},
  {n:"صلصة مقلية",c:"إضافات",p:5,i:"https://images.unsplash.com/photo-1472476443507-c7a0d4c4df94?w=400"},
+ {n:"جبنة موتزاريلا",c:"إضافات",p:50,i:"https://images.unsplash.com/photo-1486297678749-3d280a0ad5c5?w=400"},
+ {n:"إضافة لحوم",c:"إضافات",p:55,i:"https://images.unsplash.com/photo-1607623814075-e51df1bd6562?w=400"},
+ {n:"صوص باربيكيو",c:"إضافات",p:25,i:"https://images.unsplash.com/photo-1472476443507-c7a0d4c4df94?w=400"},
+ {n:"صوص شيدر",c:"إضافات",p:25,i:"https://images.unsplash.com/photo-1472476443507-c7a0d4c4df94?w=400"},
  // ===== حلو =====
  {n:"هوجز + شيكولاتة",c:"حلو",p:40,i:"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400"},
  {n:"موز + شيكولاتة",c:"حلو",p:40,i:"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400"},
