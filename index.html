@@ -40,7 +40,7 @@
         <div class="hero-copy">
           <div class="eyebrow">منذ 1992 • مغاغة</div>
           <h1>الطعم اللي<br><span>مستنيك</span></h1>
-          <p>كشري، بيتزا، مشويات، كريب ووجبات سوري — كل اللي بتحبه في مكان واحد.</p>
+          <p>كشري، بيتزا، مشويات، كريب، حواوشي، نوحسكوو ووجبات سوري — كل اللي بتحبه في مكان واحد.</p>
           <div class="hero-actions">
             <a href="#menu" class="btn primary">شوف المنيو <span>←</span></a>
             <a href="tel:01210195153" class="btn ghost">📞 اطلب الآن</a>
@@ -64,11 +64,11 @@
     <section class="quick-cats">
       <div class="container category-row">
         <button onclick="filterMenu('كشري')">🍲<span>كشري</span></button>
-        <button onclick="filterMenu('بيتزا')">🍕<span>بيتزا</span></button>
-        <button onclick="filterMenu('كريب')">🌯<span>كريب</span></button>
-        <button onclick="filterMenu('مشويات')">🍗<span>مشويات</span></button>
+        <button onclick="filterMenu('طواجن')">🥘<span>طواجن</span></button>
         <button onclick="filterMenu('سوري')">🥙<span>سوري</span></button>
-        <button onclick="filterMenu('حلو')">🍰<span>حلو</span></button>
+        <button onclick="filterMenu('بيتزا')">🍕<span>بيتزا</span></button>
+        <button onclick="filterMenu('مشويات')">🍗<span>مشويات</span></button>
+        <button onclick="filterMenu('حواوشي')">🥪<span>حواوشي</span></button>
       </div>
     </section>
 
@@ -76,9 +76,9 @@
       <div class="container">
         <div class="section-heading"><div><span class="eyebrow">اختياراتنا</span><h2>عروض <span>تستاهل</span></h2></div><a href="#menu">كل المنيو ←</a></div>
         <div class="offers-grid">
-          <article class="offer-card featured"><div class="offer-icon">🍛</div><div><small>عرض التوفير 1</small><h3>وجبة طاجن لحمة</h3><p>+ طبق حلو بغاشة سكر ولبن</p><strong>330 <small>جنيه</small></strong></div></article>
-          <article class="offer-card"><div class="offer-icon">🍕</div><div><small>عرض التوفير 2</small><h3>فطيرة لحمة + فطيرة فراخ</h3><p>+ صاروخ سبيسو</p><strong>260 <small>جنيه</small></strong></div></article>
-          <article class="offer-card"><div class="offer-icon">🥘</div><div><small>وجبات التوفير</small><h3>وجبة طاجن فراخ</h3><p>عيش + سلطة + أرز باللبن + بيبسي</p><strong>75 <small>جنيه</small></strong></div></article>
+          <article class="offer-card featured"><div class="offer-icon">🍕</div><div><small>عرض التوفير 1</small><h3>أي 3 بيتزا وسط</h3><p>+ فطير حلو بغاشة سكر ولبن</p><strong>330 <small>جنيه</small></strong></div></article>
+          <article class="offer-card"><div class="offer-icon">🍕</div><div><small>عرض التوفير 2</small><h3>بيتزا كبيرة + فطيرة فراخ</h3><p>+ صاروخ سجق</p><strong>325 <small>جنيه</small></strong></div></article>
+          <article class="offer-card"><div class="offer-icon">🥘</div><div><small>وجبات التوفير</small><h3>وجبة طاجن لحمة</h3><p>صلصة + عيش + سلطة</p><strong>70 <small>جنيه</small></strong></div></article>
         </div>
       </div>
     </section>
@@ -91,9 +91,16 @@
         </div>
         <div class="filters" id="filters">
           <button class="active" data-filter="الكل">الكل</button>
-          <button data-filter="كشري">كشري</button><button data-filter="طواجن">طواجن</button>
-          <button data-filter="سوري">وجبات سوري</button><button data-filter="كريب">كريب</button>
-          <button data-filter="مشويات">مشويات</button><button data-filter="بيتزا">بيتزا</button>
+          <button data-filter="كشري">كشري</button>
+          <button data-filter="طواجن">طواجن</button>
+          <button data-filter="سوري">وجبات سوري</button>
+          <button data-filter="بيتزا">بيتزا</button>
+          <button data-filter="صاروخ إيطالي">صاروخ إيطالي</button>
+          <button data-filter="مشويات">مشويات</button>
+          <button data-filter="حواوشي">حواوشي</button>
+          <button data-filter="كريب">كريب</button>
+          <button data-filter="نوحسكوو">نوحسكوو</button>
+          <button data-filter="إضافات">إضافات</button>
           <button data-filter="حلو">حلو</button>
         </div>
         <div id="menuGrid" class="menu-grid"></div>
