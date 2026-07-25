@@ -29,17 +29,17 @@ const menu = [
  {n:"بطاطس سوري جبنه",c:"وجبات سوري",p:30,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/1328cbc1ac598a894242ad93c874e70ecee20796.jpg"},
  {n:"بانيه علي بطاطس",c:"وجبات سوري",p:25,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/8c5d9485b13b2034dcb2436efbe418b2231852aa.jpg"},
  // ===== حلو هند =====
- {n:"ارز بلبن صغير",c:"حلو هند",p:15,i:"https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400"},
- {n:"ارز بلبن كبير",c:"حلو هند",p:20,i:"https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400"},
- {n:"ارز بلبن فرن",c:"حلو هند",p:20,i:"https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400"},
- {n:"ارز بلبن لوتس",c:"حلو هند",p:25,i:"https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400"},
- {n:"ارز بلبن اوريو",c:"حلو هند",p:25,i:"https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400"},
- {n:"ارز بلبن مكسرات",c:"حلو هند",p:25,i:"https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400"},
- {n:"ام علي مكسرات",c:"حلو هند",p:25,i:"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400"},
- {n:"مهلبية",c:"حلو هند",p:12,i:"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400"},
- {n:"جيلي مهلبية",c:"حلو هند",p:20,i:"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400"},
- {n:"كريم كارميل",c:"حلو هند",p:25,i:"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400"},
- {n:"جيلي ساده",c:"حلو هند",p:15,i:"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400"}
+ {n:"ارز بلبن صغير",c:"حلو هند",p:15,i:"roz-blaban.png"},
+ {n:"ارز بلبن كبير",c:"حلو هند",p:20,i:"roz-blaban.png"},
+ {n:"ارز بلبن فرن",c:"حلو هند",p:20,i:"roz-blaban.png"},
+ {n:"ارز بلبن لوتس",c:"حلو هند",p:25,i:"roz-blaban.png"},
+ {n:"ارز بلبن اوريو",c:"حلو هند",p:25,i:"roz-blaban.png"},
+ {n:"ارز بلبن مكسرات",c:"حلو هند",p:25,i:"roz-blaban.png"},
+ {n:"ام علي مكسرات",c:"حلو هند",p:25,i:"om-ali.png"},
+ {n:"مهلبية",c:"حلو هند",p:12,i:"mahalabia.png"},
+ {n:"جيلي مهلبية",c:"حلو هند",p:20,i:"jelly.png"},
+ {n:"كريم كارميل",c:"حلو هند",p:25,i:"roz-blaban.png"},
+ {n:"جيلي ساده",c:"حلو هند",p:15,i:"jelly.png"}
 ];
 let currentFilter="الكل", cart=[];
 const grid=document.getElementById("menuGrid");
