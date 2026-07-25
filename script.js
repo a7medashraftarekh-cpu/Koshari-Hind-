@@ -27,7 +27,19 @@ const menu = [
  {n:"زنجر",c:"وجبات سوري",p:55,i:"https://kimi-web-img.moonshot.cn/img/i0.wp.com/2fb59f0c318c6a202e6cca728842b94ea5ebc6a6.jpg"},
  {n:"بطاطس سوري",c:"وجبات سوري",p:20,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/8c5d9485b13b2034dcb2436efbe418b2231852aa.jpg"},
  {n:"بطاطس سوري جبنه",c:"وجبات سوري",p:30,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/1328cbc1ac598a894242ad93c874e70ecee20796.jpg"},
- {n:"بانيه علي بطاطس",c:"وجبات سوري",p:25,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/8c5d9485b13b2034dcb2436efbe418b2231852aa.jpg"}
+ {n:"بانيه علي بطاطس",c:"وجبات سوري",p:25,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/8c5d9485b13b2034dcb2436efbe418b2231852aa.jpg"},
+ // ===== حلو هند =====
+ {n:"ارز بلبن صغير",c:"حلو هند",p:15,i:"https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400"},
+ {n:"ارز بلبن كبير",c:"حلو هند",p:20,i:"https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400"},
+ {n:"ارز بلبن فرن",c:"حلو هند",p:20,i:"https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400"},
+ {n:"ارز بلبن لوتس",c:"حلو هند",p:25,i:"https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400"},
+ {n:"ارز بلبن اوريو",c:"حلو هند",p:25,i:"https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400"},
+ {n:"ارز بلبن مكسرات",c:"حلو هند",p:25,i:"https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400"},
+ {n:"ام علي مكسرات",c:"حلو هند",p:25,i:"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400"},
+ {n:"مهلبية",c:"حلو هند",p:12,i:"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400"},
+ {n:"جيلي مهلبية",c:"حلو هند",p:20,i:"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400"},
+ {n:"كريم كارميل",c:"حلو هند",p:25,i:"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400"},
+ {n:"جيلي ساده",c:"حلو هند",p:15,i:"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400"}
 ];
 let currentFilter="الكل", cart=[];
 const grid=document.getElementById("menuGrid");
