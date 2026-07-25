@@ -1,6 +1,5 @@
 const menu = [
  // ===== كشري =====
- {n:"علبة هندي",c:"كشري",p:20,i:"https://kimi-web-img.moonshot.cn/img/img.youm7.com/5beb6553a3a2b9171d6df178e56df1c6535664e0.jpg"},
  {n:"كشري صغير",c:"كشري",p:20,i:"https://kimi-web-img.moonshot.cn/img/img.youm7.com/5beb6553a3a2b9171d6df178e56df1c6535664e0.jpg"},
  {n:"كشري وسط",c:"كشري",p:25,i:"https://kimi-web-img.moonshot.cn/img/img.youm7.com/fc9c57a455adb795860f0eeb07736c8598718a5a.jpg"},
  {n:"كشري كبير",c:"كشري",p:30,i:"https://kimi-web-img.moonshot.cn/img/img.youm7.com/5beb6553a3a2b9171d6df178e56df1c6535664e0.jpg"},
@@ -15,9 +14,6 @@ const menu = [
  {n:"طاجن سجق",c:"طواجن",p:80,i:"https://kimi-web-img.moonshot.cn/img/elwasfa.com/0b8cbc9acd9617f37160a326ba8072b3b262c0a4.jpg"},
  {n:"طاجن كفتة",c:"طواجن",p:75,i:"https://kimi-web-img.moonshot.cn/img/elwasfa.com/0b8cbc9acd9617f37160a326ba8072b3b262c0a4.jpg"},
  {n:"طاجن كبدة",c:"طواجن",p:80,i:"https://kimi-web-img.moonshot.cn/img/img.youm7.com/fcc8fd7582457a8fa24b782c7da61c88ed83d829.jfif"},
- {n:"ميكس طاجن فراخ",c:"طواجن",p:55,i:"https://kimi-web-img.moonshot.cn/img/img.youm7.com/fcc8fd7582457a8fa24b782c7da61c88ed83d829.jfif"},
- {n:"ميكس طاجن لحمة",c:"طواجن",p:50,i:"https://kimi-web-img.moonshot.cn/img/elwasfa.com/0b8cbc9acd9617f37160a326ba8072b3b262c0a4.jpg"},
- {n:"طاجن فراخ موزاريلا",c:"طواجن",p:60,i:"https://kimi-web-img.moonshot.cn/img/img.youm7.com/fcc8fd7582457a8fa24b782c7da61c88ed83d829.jfif"},
  // ===== وجبات التوفير =====
  {n:"وجبة طاجن فراخ",c:"وجبات التوفير",p:70,i:"https://kimi-web-img.moonshot.cn/img/img.youm7.com/fcc8fd7582457a8fa24b782c7da61c88ed83d829.jfif"},
  {n:"وجبة طاجن لحمة",c:"وجبات التوفير",p:70,i:"https://kimi-web-img.moonshot.cn/img/elwasfa.com/0b8cbc9acd9617f37160a326ba8072b3b262c0a4.jpg"},
@@ -30,18 +26,9 @@ const menu = [
  {n:"صاروخ سجق",c:"سوري",p:90,i:"https://kimi-web-img.moonshot.cn/img/i0.wp.com/2fb59f0c318c6a202e6cca728842b94ea5ebc6a6.jpg"},
  {n:"صاروخ كفتة",c:"سوري",p:95,i:"https://kimi-web-img.moonshot.cn/img/i0.wp.com/2fb59f0c318c6a202e6cca728842b94ea5ebc6a6.jpg"},
  {n:"صاروخ لحمة",c:"سوري",p:155,i:"https://kimi-web-img.moonshot.cn/img/i0.wp.com/2fb59f0c318c6a202e6cca728842b94ea5ebc6a6.jpg"},
- {n:"وجبة عربي سبيسو",c:"سوري",p:90,i:"https://kimi-web-img.moonshot.cn/img/i0.wp.com/2fb59f0c318c6a202e6cca728842b94ea5ebc6a6.jpg"},
- {n:"وجبة عربي سوري",c:"سوري",p:125,i:"https://kimi-web-img.moonshot.cn/img/i0.wp.com/2fb59f0c318c6a202e6cca728842b94ea5ebc6a6.jpg"},
- {n:"وجبة عربي دبل",c:"سوري",p:155,i:"https://kimi-web-img.moonshot.cn/img/i0.wp.com/2fb59f0c318c6a202e6cca728842b94ea5ebc6a6.jpg"},
- {n:"بيتزا سوري",c:"سوري",p:105,i:"https://kimi-web-img.moonshot.cn/img/elwasfa.com/d998b539356801f6a6c2f8ad58c44891bc1c378e.jpg"},
- {n:"دبل ورق",c:"سوري",p:155,i:"https://kimi-web-img.moonshot.cn/img/asif.org/811b3c58aab450df15234a0f91bdbb5565dca4b8.jpg"},
  // ===== بيتزا =====
  {n:"بيتزا إيطالي",c:"بيتزا",p:90,i:"https://kimi-web-img.moonshot.cn/img/elwasfa.com/d998b539356801f6a6c2f8ad58c44891bc1c378e.jpg"},
  {n:"بيتزا شرقي",c:"بيتزا",p:100,i:"https://kimi-web-img.moonshot.cn/img/elwasfa.com/d998b539356801f6a6c2f8ad58c44891bc1c378e.jpg"},
- {n:"فطير حلو",c:"بيتزا",p:50,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/d9903afccea158acdf6ca39b0f4e7bc3f3b5c5a7.jpg"},
- {n:"فطير حادق",c:"بيتزا",p:110,i:"https://kimi-web-img.moonshot.cn/img/elwasfa.com/d998b539356801f6a6c2f8ad58c44891bc1c378e.jpg"},
- {n:"فطير كشري",c:"بيتزا",p:125,i:"https://kimi-web-img.moonshot.cn/img/img.youm7.com/5beb6553a3a2b9171d6df178e56df1c6535664e0.jpg"},
- {n:"فطيرة فراخ",c:"بيتزا",p:85,i:"https://kimi-web-img.moonshot.cn/img/elwasfa.com/d998b539356801f6a6c2f8ad58c44891bc1c378e.jpg"},
  // ===== صاروخ إيطالي =====
  {n:"صاروخ مارجرتا",c:"صاروخ إيطالي",p:90,i:"https://kimi-web-img.moonshot.cn/img/elwasfa.com/d998b539356801f6a6c2f8ad58c44891bc1c378e.jpg"},
  {n:"صاروخ سجق",c:"صاروخ إيطالي",p:90,i:"https://kimi-web-img.moonshot.cn/img/elwasfa.com/d998b539356801f6a6c2f8ad58c44891bc1c378e.jpg"},
@@ -55,12 +42,10 @@ const menu = [
  {n:"نصف فرخة",c:"مشويات",p:160,i:"https://kimi-web-img.moonshot.cn/img/www.atyabtabkha.com/daf1ff052346dee4a68975453ab1821eb268d3c0.jpg"},
  {n:"فرخة كاملة",c:"مشويات",p:300,i:"https://kimi-web-img.moonshot.cn/img/www.atyabtabkha.com/daf1ff052346dee4a68975453ab1821eb268d3c0.jpg"},
  {n:"ربع فرخة ونصف",c:"مشويات",p:75,i:"https://kimi-web-img.moonshot.cn/img/www.atyabtabkha.com/daf1ff052346dee4a68975453ab1821eb268d3c0.jpg"},
- {n:"شيش طاووق",c:"مشويات",p:70,i:"https://kimi-web-img.moonshot.cn/img/www.atyabtabkha.com/daf1ff052346dee4a68975453ab1821eb268d3c0.jpg"},
  // ===== حواوشي =====
  {n:"حواوشي لحمة خير",c:"حواوشي",p:40,i:"https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400"},
  {n:"حواوشي لحمة موتزاريلا",c:"حواوشي",p:55,i:"https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400"},
  // ===== كريب =====
- {n:"كريب شاورما لحمة",c:"كريب",p:70,i:"https://kimi-web-img.moonshot.cn/img/papai.online/c52fdda58635b0303d954daa0e99541f3376a190.png"},
  {n:"كريب فراخ + شاورما",c:"كريب",p:40,i:"https://kimi-web-img.moonshot.cn/img/papai.online/94e63da4c2d8cb36b6706a17c72c4291e1e664bc.png"},
  {n:"كريب فراخ + كفتة",c:"كريب",p:50,i:"https://kimi-web-img.moonshot.cn/img/papai.online/94e63da4c2d8cb36b6706a17c72c4291e1e664bc.png"},
  {n:"كريب لحمة",c:"كريب",p:40,i:"https://kimi-web-img.moonshot.cn/img/papai.online/c52fdda58635b0303d954daa0e99541f3376a190.png"},
@@ -70,32 +55,10 @@ const menu = [
  {n:"كريب فراخ",c:"كريب",p:60,i:"https://kimi-web-img.moonshot.cn/img/papai.online/94e63da4c2d8cb36b6706a17c72c4291e1e664bc.png"},
  {n:"كريب مشكل جبن",c:"كريب",p:45,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/1328cbc1ac598a894242ad93c874e70ecee20796.jpg"},
  {n:"كريب مشكل سجق",c:"كريب",p:50,i:"https://kimi-web-img.moonshot.cn/img/majesty.com.eg/88540b55a042f06686901e1f7f10490047f16ebd.png"},
- {n:"كريب برجر",c:"كريب",p:60,i:"https://kimi-web-img.moonshot.cn/img/papai.online/94e63da4c2d8cb36b6706a17c72c4291e1e664bc.png"},
- {n:"كريب سوسيس",c:"كريب",p:55,i:"https://kimi-web-img.moonshot.cn/img/majesty.com.eg/88540b55a042f06686901e1f7f10490047f16ebd.png"},
- {n:"كريب شيش طاووق",c:"كريب",p:70,i:"https://kimi-web-img.moonshot.cn/img/papai.online/94e63da4c2d8cb36b6706a17c72c4291e1e664bc.png"},
- {n:"كريب بطاطس فراخ",c:"كريب",p:45,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/8c5d9485b13b2034dcb2436efbe418b2231852aa.jpg"},
- {n:"كريب بطاطس ميكس",c:"كريب",p:50,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/1328cbc1ac598a894242ad93c874e70ecee20796.jpg"},
  // ===== نوحسكوو =====
  {n:"نجرسكوو",c:"نوحسكوو",p:90,i:"https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400"},
  {n:"شاميل",c:"نوحسكوو",p:50,i:"https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400"},
- {n:"مكرونة حمسي",c:"نوحسكوو",p:90,i:"https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400"},
- // ===== إضافات =====
- {n:"كيلو رز",c:"إضافات",p:10,i:"https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400"},
- {n:"كيلو مكرونة",c:"إضافات",p:7,i:"https://images.unsplash.com/photo-1551462147-37885acc36f1?w=400"},
- {n:"صلصة كشري",c:"إضافات",p:5,i:"https://images.unsplash.com/photo-1472476443507-c7a0d4c4df94?w=400"},
- {n:"صلصة شاورما",c:"إضافات",p:5,i:"https://images.unsplash.com/photo-1472476443507-c7a0d4c4df94?w=400"},
- {n:"صلصة حمص",c:"إضافات",p:5,i:"https://images.unsplash.com/photo-1472476443507-c7a0d4c4df94?w=400"},
- {n:"صلصة عدس",c:"إضافات",p:7,i:"https://images.unsplash.com/photo-1472476443507-c7a0d4c4df94?w=400"},
- {n:"صلصة مقلية",c:"إضافات",p:5,i:"https://images.unsplash.com/photo-1472476443507-c7a0d4c4df94?w=400"},
- {n:"جبنة موتزاريلا",c:"إضافات",p:50,i:"https://images.unsplash.com/photo-1486297678749-3d280a0ad5c5?w=400"},
- {n:"إضافة لحوم",c:"إضافات",p:55,i:"https://images.unsplash.com/photo-1607623814075-e51df1bd6562?w=400"},
- {n:"صوص باربيكيو",c:"إضافات",p:25,i:"https://images.unsplash.com/photo-1472476443507-c7a0d4c4df94?w=400"},
- {n:"صوص شيدر",c:"إضافات",p:25,i:"https://images.unsplash.com/photo-1472476443507-c7a0d4c4df94?w=400"},
- // ===== حلو =====
- {n:"هوجز + شيكولاتة",c:"حلو",p:40,i:"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400"},
- {n:"موز + شيكولاتة",c:"حلو",p:40,i:"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400"},
- {n:"مكسرات + شيكولاتة",c:"حلو",p:50,i:"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400"},
- {n:"موز + مكسرات + عسل",c:"حلو",p:55,i:"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400"}
+ {n:"مكرونة حمسي",c:"نوحسكوو",p:90,i:"https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400"}
 ];
 let currentFilter="الكل", cart=[];
 const grid=document.getElementById("menuGrid");
