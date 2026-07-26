@@ -28,6 +28,38 @@ const menu = [
   {n:"بطاطس سوري",c:"وجبات سوري",p:20,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/8c5d9485b13b2034dcb2436efbe418b2231852aa.jpg"},
   {n:"بطاطس سوري جبنه",c:"وجبات سوري",p:30,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/1328cbc1ac598a894242ad93c874e70ecee20796.jpg"},
   {n:"بانيه علي بطاطس",c:"وجبات سوري",p:25,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/8c5d9485b13b2034dcb2436efbe418b2231852aa.jpg"},
+  // ===== نجرسكو =====
+  {n:"نجرسكو",c:"نجرسكو",p:90,i:"https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400&h=300&fit=crop"},
+  {n:"بشاميل",c:"نجرسكو",p:50,i:"https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?w=400&h=300&fit=crop"},
+  {n:"مكرونه جمبري",c:"نجرسكو",p:90,i:"https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=400&h=300&fit=crop"},
+  // ===== كريب لحوم =====
+  {n:"كريب شاورما لحمه",c:"كريب لحوم",p:70,i:"https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=400&h=300&fit=crop"},
+  {n:"كريب برجر",c:"كريب لحوم",p:60,i:"https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop"},
+  {n:"كريب كفته",c:"كريب لحوم",p:55,i:"https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=400&h=300&fit=crop"},
+  {n:"كريب سوسيس",c:"كريب لحوم",p:55,i:"https://images.unsplash.com/photo-1547496502-ffa76f1d1d56?w=400&h=300&fit=crop"},
+  {n:"كريب كفته سوسيس برجر",c:"كريب لحوم",p:70,i:"https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=400&h=300&fit=crop"},
+  {n:"كريب مشروم",c:"كريب لحوم",p:55,i:"https://images.unsplash.com/photo-1504544750208-dc0358e63f7f?w=400&h=300&fit=crop"},
+  {n:"كريب مشكل لحوم",c:"كريب لحوم",p:80,i:"https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=300&fit=crop"},
+  {n:"كريب سجق",c:"كريب لحوم",p:60,i:"https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=400&h=300&fit=crop"},
+  // ===== كريب بطاطس وجبن =====
+  {n:"كريب بطاطس رول",c:"كريب بطاطس وجبن",p:45,i:"https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?w=400&h=300&fit=crop"},
+  {n:"كريب بطاطس",c:"كريب بطاطس وجبن",p:35,i:"https://images.unsplash.com/photo-1585109649139-366815a0d713?w=400&h=300&fit=crop"},
+  {n:"كريب بطاطس شيدر",c:"كريب بطاطس وجبن",p:50,i:"https://images.unsplash.com/photo-1560717789-0ac7c58ac90a?w=400&h=300&fit=crop"},
+  {n:"كريب مشكل جبن",c:"كريب بطاطس وجبن",p:45,i:"https://images.unsplash.com/photo-1486297678749-18743b7545d9?w=400&h=300&fit=crop"},
+  // ===== كريب فراخ =====
+  {n:"كريب بانيه",c:"كريب فراخ",p:60,i:"https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=400&h=300&fit=crop"},
+  {n:"كريب استربس",c:"كريب فراخ",p:70,i:"https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=400&h=300&fit=crop"},
+  {n:"كريب شاورما",c:"كريب فراخ",p:75,i:"https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=400&h=300&fit=crop"},
+  {n:"كريب استربس + شيش",c:"كريب فراخ",p:80,i:"https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop"},
+  {n:"كريب شاورما + استربس",c:"كريب فراخ",p:75,i:"https://images.unsplash.com/photo-1561651823-34a0658ebc9d?w=400&h=300&fit=crop"},
+  {n:"كريب فاهيتا دجاج",c:"كريب فراخ",p:80,i:"https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=400&h=300&fit=crop"},
+  {n:"كريب مشكل فراخ",c:"كريب فراخ",p:80,i:"https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=400&h=300&fit=crop"},
+  {n:"كريب شيش",c:"كريب فراخ",p:75,i:"https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop"},
+  // ===== كريب حلو =====
+  {n:"كريب هوهوز + شيكولاته",c:"كريب حلو",p:40,i:"https://images.unsplash.com/photo-1514517220017-8ce97a34a7b6?w=400&h=300&fit=crop"},
+  {n:"كريب موز + شيكولاته",c:"كريب حلو",p:40,i:"https://images.unsplash.com/photo-1579306194872-64d3b7bac4c2?w=400&h=300&fit=crop"},
+  {n:"كريب مكسرات + شيكولاته",c:"كريب حلو",p:50,i:"https://images.unsplash.com/photo-1505253758473-96b701d2cd03?w=400&h=300&fit=crop"},
+  {n:"كريب موز + مكسرات + عسل",c:"كريب حلو",p:55,i:"https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400&h=300&fit=crop"},
   // ===== حلو هند =====
   {n:"ارز بلبن صغير",c:"حلو هند",p:15,i:"roz-blaban.png"},
   {n:"ارز بلبن كبير",c:"حلو هند",p:20,i:"roz-blaban.png"},
@@ -163,9 +195,7 @@ function checkout() {
   }
   const total = cart.reduce((a, x) => a + x.p, 0);
   const items = cart.map(x => x.n).join("، ");
-  const msg = encodeURIComponent(`مرحباً كشري هند 👋
-عايز أطلب: ${items}
-الإجمالي التقريبي: ${total} جنيه`);
+  const msg = encodeURIComponent(`مرحباً كشري هند 👋\nعايز أطلب: ${items}\nالإجمالي التقريبي: ${total} جنيه`);
   window.open(`https://wa.me/201210195153?text=${msg}`, "_blank");
 }
 
