@@ -41,17 +41,17 @@ const menu = [
   {n:"كريم كارميل",c:"حلو هند",p:25,i:"roz-blaban.png"},
   {n:"جيلي ساده",c:"حلو هند",p:15,i:"jelly.png"},
   // ===== اضافات هند =====
-  {n:"عيش توست",c:"اضافات هند",p:10,i:"https://placehold.co/300x200/1b5e20/e65100?text=%D8%B9%D9%8A%D8%B4+%D8%AA%D9%88%D8%B3%D8%AA&font=cairo"},
-  {n:"سلطة صغيرة",c:"اضافات هند",p:7,i:"https://placehold.co/300x200/1b5e20/e65100?text=%D8%B3%D9%84%D8%B7%D8%A9+%D8%B5%D8%BA%D9%8A%D8%B1%D8%A9&font=cairo"},
-  {n:"سلطة كبيرة",c:"اضافات هند",p:10,i:"https://placehold.co/300x200/1b5e20/e65100?text=%D8%B3%D9%84%D8%B7%D8%A9+%D9%83%D8%A8%D9%8A%D8%B1%D8%A9&font=cairo"},
-  {n:"تقلية",c:"اضافات هند",p:7,i:"https://placehold.co/300x200/1b5e20/e65100?text=%D8%AA%D9%82%D9%84%D9%8A%D8%A9&font=cairo"},
-  {n:"حمص",c:"اضافات هند",p:7,i:"https://placehold.co/300x200/1b5e20/e65100?text=%D8%AD%D9%85%D8%B5&font=cairo"},
-  {n:"صلصة",c:"اضافات هند",p:5,i:"https://placehold.co/300x200/1b5e20/e65100?text=%D8%B5%D9%84%D8%B5%D8%A9&font=cairo"},
-  {n:"عدس",c:"اضافات هند",p:7,i:"https://placehold.co/300x200/1b5e20/e65100?text=%D8%B9%D8%AF%D8%B3&font=cairo"},
-  {n:"شطة زيت",c:"اضافات هند",p:10,i:"https://placehold.co/300x200/1b5e20/e65100?text=%D8%B4%D8%B7%D8%A9+%D8%B2%D9%8A%D8%AA&font=cairo"},
-  {n:"دقة",c:"اضافات هند",p:5,i:"https://placehold.co/300x200/1b5e20/e65100?text=%D8%AF%D9%82%D8%A9&font=cairo"},
-  {n:"إضافات شاورما",c:"اضافات هند",p:25,i:"https://placehold.co/300x200/1b5e20/e65100?text=%D8%A5%D8%B6%D8%A7%D9%81%D8%A7%D8%AA+%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7&font=cairo"},
-  {n:"إضافات موتزريلا",c:"اضافات هند",p:20,i:"https://placehold.co/300x200/1b5e20/e65100?text=%D8%A5%D8%B6%D8%A7%D9%81%D8%A7%D8%AA+%D9%85%D9%88%D8%AA%D8%B2%D8%B1%D9%8A%D9%84%D8%A7&font=cairo"}
+  {n:"عيش توست",c:"اضافات هند",p:10,i:"https://kimi-web-img.moonshot.cn/img/pickyeaterblog.com/dab5ea3a023d82b8583f304ca6f13a8f217d0173.jpg"},
+  {n:"سلطة صغيرة",c:"اضافات هند",p:7,i:"https://kimi-web-img.moonshot.cn/img/kitchen.sayidaty.net/6b375a4ec4cb877faeca8981b46248c62fddec54.jpg"},
+  {n:"سلطة كبيرة",c:"اضافات هند",p:10,i:"https://kimi-web-img.moonshot.cn/img/static.rashaqa.net/3118792391454ac998bee74b011b379d65f71bd8.jpg"},
+  {n:"تقلية",c:"اضافات هند",p:7,i:"https://kimi-web-img.moonshot.cn/img/cdn.salla.sa/0c2666ce469cb5e4725c77c10889c313b6cd47c0.jpg"},
+  {n:"حمص",c:"اضافات هند",p:7,i:"https://kimi-web-img.moonshot.cn/img/cdn.sanity.io/9c09c082175b2598aa422966d4982ca9e0e6ed0e.webp"},
+  {n:"صلصة",c:"اضافات هند",p:5,i:"https://kimi-web-img.moonshot.cn/img/media.zid.store/eca9a1d9ba746ef1a53c6e9f682a0157925cf6e6.PNG"},
+  {n:"عدس",c:"اضافات هند",p:7,i:"https://kimi-web-img.moonshot.cn/img/img.youm7.com/b66ac9745e04d0b9e0f5f7bc980de503814e2331.jpg"},
+  {n:"شطة زيت",c:"اضافات هند",p:10,i:"https://kimi-web-img.moonshot.cn/img/cdn.salla.sa/7076983618cbd58d873e82174cc63f15939852e8.jpg"},
+  {n:"دقة",c:"اضافات هند",p:5,i:"https://kimi-web-img.moonshot.cn/img/cdn.loveandlemons.com/67f6887592507ac95506b1da7cfad8c484a1a399.jpg"},
+  {n:"إضافات شاورما",c:"اضافات هند",p:25,i:"https://kimi-web-img.moonshot.cn/img/www.sadia-life.com/ba0f355f8cd9fa437ce6c1ff72b22743d95d1a3d.jpg"},
+  {n:"إضافات موتزريلا",c:"اضافات هند",p:20,i:"https://kimi-web-img.moonshot.cn/img/palmyraorders.com/2cd85f2e146f243c52587e5fdd972d3148ca7cda.jpg"}
 ];
 
 let currentFilter = "الكل";
@@ -90,7 +90,6 @@ function renderMenu() {
   }).join("");
 }
 
-// Filter buttons in menu section
 document.querySelectorAll("#filters button").forEach(b => {
   b.addEventListener("click", () => {
     document.querySelectorAll("#filters button").forEach(x => x.classList.remove("active"));
