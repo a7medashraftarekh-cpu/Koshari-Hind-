@@ -29,9 +29,17 @@ const menu = [
   {n:"بطاطس سوري جبنه",c:"وجبات سوري",p:30,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/1328cbc1ac598a894242ad93c874e70ecee20796.jpg"},
   {n:"بانيه علي بطاطس",c:"وجبات سوري",p:25,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/8c5d9485b13b2034dcb2436efbe418b2231852aa.jpg"},
   // ===== نجرسكو =====
-  {n:"نجرسكو",c:"نجرسكو",p:90,i:"https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400&h=300&fit=crop"},
-  {n:"بشاميل",c:"نجرسكو",p:50,i:"https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?w=400&h=300&fit=crop"},
-  {n:"مكرونه جمبري",c:"نجرسكو",p:90,i:"https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=400&h=300&fit=crop"},
+  {n:"نجرسكو",c:"نجرسكو",p:90,i:"https://kimi-web-img.moonshot.cn/img/www.akla7elwa.com/7e5c713b271394ff9de15a708990f75fabdf00cb.jpg"},
+  {n:"بشاميل",c:"نجرسكو",p:50,i:"https://kimi-web-img.moonshot.cn/img/eatwellabi.com/d415cd08653dd9db9f647f637aa724945593c7e6.jpg"},
+  {n:"مكرونه جمبري",c:"نجرسكو",p:90,i:"https://kimi-web-img.moonshot.cn/img/img.youm7.com/ac32c4d72e53a5d8eccde6f3a37c1edf01ea7c52.jpg"},
+  // ===== الحواوشي =====
+  {n:"حواوشي لحمه كبير",c:"الحواوشي",p:40,i:"https://kimi-web-img.moonshot.cn/img/vid.alarabiya.net/e9404c6a641ed0f6aaf9d352a411f39be43f99f8.jpg"},
+  {n:"حواوشي لحمه موتزريلا كبير",c:"الحواوشي",p:55,i:"https://kimi-web-img.moonshot.cn/img/www.khalty.net/e3604b681d65f37168ddebf2499aab33051250ea.jpg"},
+  // ===== الفراخ المشويه =====
+  {n:"ربع فرخه ورك",c:"الفراخ المشويه",p:75,i:"https://kimi-web-img.moonshot.cn/img/www.eldahan.com/ce3140aa9d42485c510e37e14153124c1768a4ef.jpg"},
+  {n:"نصف فرخه",c:"الفراخ المشويه",p:160,i:"https://kimi-web-img.moonshot.cn/img/www.eldahan.com/99265e6a73b5870130fa0c845bb95f1f01e94fd9.jpg"},
+  {n:"ربع فرخه صدر",c:"الفراخ المشويه",p:85,i:"https://kimi-web-img.moonshot.cn/img/www.eldahan.com/e9a9bf220cbbb6cd9a82f55c5365dc24952d9f13.jpg"},
+  {n:"فرخه كامله",c:"الفراخ المشويه",p:300,i:"https://kimi-web-img.moonshot.cn/img/img.youm7.com/e13a2d27dfcb231b143d1bd20461e5313baadd3d.jpg"},
   // ===== كريب لحوم =====
   {n:"كريب شاورما لحمه",c:"كريب لحوم",p:70,i:"https://kimi-web-img.moonshot.cn/img/papai.online/c52fdda58635b0303d954daa0e99541f3376a190.png"},
   {n:"كريب برجر",c:"كريب لحوم",p:60,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/11fe503b7641f5c568deab459ad01f2263ed3ccd.jpg"},
