@@ -39,14 +39,26 @@ const menu = [
  {n:"مهلبية",c:"حلو هند",p:12,i:"mahalabia.png"},
  {n:"جيلي مهلبية",c:"حلو هند",p:20,i:"jelly.png"},
  {n:"كريم كارميل",c:"حلو هند",p:25,i:"roz-blaban.png"},
- {n:"جيلي ساده",c:"حلو هند",p:15,i:"jelly.png"}
+ {n:"جيلي ساده",c:"حلو هند",p:15,i:"jelly.png"},
+ // ===== اضافات هند =====
+ {n:"عيش توست",c:"اضافات هند",p:10,i:"https://placehold.co/300x200/1b5e20/e65100?text=عيش+توست&font=cairo"},
+ {n:"سلطة صغيرة",c:"اضافات هند",p:7,i:"https://placehold.co/300x200/1b5e20/e65100?text=سلطة+صغيرة&font=cairo"},
+ {n:"سلطة كبيرة",c:"اضافات هند",p:10,i:"https://placehold.co/300x200/1b5e20/e65100?text=سلطة+كبيرة&font=cairo"},
+ {n:"تقلية",c:"اضافات هند",p:7,i:"https://placehold.co/300x200/1b5e20/e65100?text=تقلية&font=cairo"},
+ {n:"حمص",c:"اضافات هند",p:7,i:"https://placehold.co/300x200/1b5e20/e65100?text=حمص&font=cairo"},
+ {n:"صلصة",c:"اضافات هند",p:5,i:"https://placehold.co/300x200/1b5e20/e65100?text=صلصة&font=cairo"},
+ {n:"عدس",c:"اضافات هند",p:7,i:"https://placehold.co/300x200/1b5e20/e65100?text=عدس&font=cairo"},
+ {n:"شطة زيت",c:"اضافات هند",p:10,i:"https://placehold.co/300x200/1b5e20/e65100?text=شطة+زيت&font=cairo"},
+ {n:"دقة",c:"اضافات هند",p:5,i:"https://placehold.co/300x200/1b5e20/e65100?text=دقة&font=cairo"},
+ {n:"إضافات شاورما",c:"اضافات هند",p:25,i:"https://placehold.co/300x200/1b5e20/e65100?text=إضافات+شاورما&font=cairo"},
+ {n:"إضافات موتزريلا",c:"اضافات هند",p:20,i:"https://placehold.co/300x200/1b5e20/e65100?text=إضافات+موتزريلا&font=cairo"}
 ];
 let currentFilter="الكل", cart=[];
 const grid=document.getElementById("menuGrid");
 function renderMenu(){
  const q=(document.getElementById("searchInput")?.value||"").trim();
  const data=menu.filter(x=>(currentFilter==="الكل"||x.c===currentFilter)&&(!q||x.n.includes(q)||x.c.includes(q)));
- grid.innerHTML=data.map((x,idx)=>`<article class="menu-item"><div class="item-img-wrap"><img src="${x.i}" alt="${x.n}" loading="lazy" onerror="this.src='https://via.placeholder.com/300x200/0d2818/e65100?text=${encodeURIComponent(x.n)}'"></div><h3>${x.n}</h3><p>${x.c} • طعم أصيل وجودة مضمونة</p><div class="price-row"><span class="price">${x.p} ج</span><button class="add-btn" onclick="addToCart(${menu.indexOf(x)})">+ أضف</button></div></article>`).join("")||'<p>مفيش نتائج مطابقة للبحث.</p>';
+ grid.innerHTML=data.map((x,idx)=>`<article class="menu-item"><div class="item-img-wrap"><img src="${x.i}" alt="${x.n}" loading="lazy" onerror="this.src='https://placehold.co/300x200/0d2818/e65100?text=${encodeURIComponent(x.n)}&font=cairo'"></div><h3>${x.n}</h3><p>${x.c} • طعم أصيل وجودة مضمونة</p><div class="price-row"><span class="price">${x.p} ج</span><button class="add-btn" onclick="addToCart(${menu.indexOf(x)})">+ أضف</button></div></article>`).join("")||'<p>مفيش نتائج مطابقة للبحث.</p>';
 }
 document.querySelectorAll("#filters button").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll("#filters button").forEach(x=>x.classList.remove("active"));b.classList.add("active");currentFilter=b.dataset.filter;renderMenu()}));
 function filterMenu(cat){currentFilter=cat;document.querySelectorAll("#filters button").forEach(b=>b.classList.toggle("active",b.dataset.filter===cat));document.getElementById("menu").scrollIntoView({behavior:"smooth"});renderMenu()}
