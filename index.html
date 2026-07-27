@@ -3,16 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#F35402" />
-  <meta name="description" content="كشري هند مغاغة — كشري، بيتزا، مشويات، طواجن ووجبات سوري. اطلب دلوقتي 01210195153" />
-  <meta property="og:title" content="كشري هند | مغاغة" />
-  <meta property="og:description" content="طعم أصيل من 1992 — اطلب دلوقتي" />
-  <meta property="og:image" content="logo.png" />
-  <link rel="icon" type="image/png" href="logo.png" />
+  <meta name="theme-color" content="#0a1f15" />
   <title>كشري هند | مغاغة</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -31,7 +26,7 @@
         <a href="#contact">الفروع</a>
       </nav>
       <button class="cart-btn" onclick="openCart()">🛒 <span>السلة</span><b id="cartCount">0</b></button>
-      <button class="menu-toggle" onclick="toggleMobileNav()" aria-label="فتح القائمة">☰</button>
+      <button class="menu-toggle" onclick="toggleMobileNav()">☰</button>
     </div>
     <div id="mobileNav" class="mobile-nav">
       <a href="#home">الرئيسية</a><a href="#menu">المنيو</a><a href="#offers">العروض</a><a href="#contact">الفروع</a>
@@ -45,7 +40,7 @@
         <div class="hero-copy">
           <div class="eyebrow">منذ 1992 • مغاغة</div>
           <h1>الطعم اللي<br><span>مستنيك</span></h1>
-          <p>كشري، بيتزا، مشويات، كريب، حواوشي، نوحسكوو ووجبات سوري — كل اللي بتحبه في مكان واحد.</p>
+          <p>كشري، بيتزا، مشويات، كريب، حواوشي، نجرسكوو ووجبات سوري — كل اللي بتحبه في مكان واحد.</p>
           <div class="hero-actions">
             <a href="#menu" class="btn primary">شوف المنيو <span>←</span></a>
             <a href="tel:01210195153" class="btn ghost">📞 اطلب الآن</a>
@@ -71,6 +66,15 @@
         <button onclick="filterMenu('كشري')">🍲<span>كشري</span></button>
         <button onclick="filterMenu('الطواجن')">🥘<span>الطواجن</span></button>
         <button onclick="filterMenu('وجبات سوري')">🥙<span>وجبات سوري</span></button>
+        <button onclick="filterMenu('صاروخ ايطالي')">🚀<span>صاروخ ايطالي</span></button>
+        <button onclick="filterMenu('اضافات الصاروخ')">➕<span>إضافات الصاروخ</span></button>
+        <button onclick="filterMenu('نجرسكو')">☕<span>نجرسكو</span></button>
+        <button onclick="filterMenu('الحواوشي')">🥪<span>الحواوشي</span></button>
+        <button onclick="filterMenu('الفراخ المشويه')">🍗<span>فراخ مشوية</span></button>
+        <button onclick="filterMenu('كريب لحوم')">🌯<span>كريب لحوم</span></button>
+        <button onclick="filterMenu('كريب بطاطس وجبن')">🧀<span>كريب بطاطس</span></button>
+        <button onclick="filterMenu('كريب فراخ')">🍗<span>كريب فراخ</span></button>
+        <button onclick="filterMenu('كريب حلو')">🍫<span>كريب حلو</span></button>
         <button onclick="filterMenu('حلو هند')">🍮<span>حلو هند</span></button>
         <button onclick="filterMenu('اضافات هند')">🥗<span>اضافات هند</span></button>
       </div>
@@ -81,7 +85,7 @@
         <div class="section-heading"><div><span class="eyebrow">اختياراتنا</span><h2>عروض <span>تستاهل</span></h2></div><a href="#menu">كل المنيو ←</a></div>
         <div class="offers-grid">
           <article class="offer-card featured"><div class="offer-icon">🍕</div><div><small>عرض التوفير 1</small><h3>أي 3 بيتزا وسط</h3><p>+ فطير حلو بغاشة سكر ولبن</p><strong>330 <small>جنيه</small></strong></div></article>
-          <article class="offer-card"><div class="offer-icon">🍕</div><div><small>عرض التوفير 2</small><h3>بيتزا كبيرة + فطيرة فراخ</h3><p>+ صاروخ سجق</p><strong>325 <small>جنيه</small></strong></div></article>
+          <article class="offer-card"><div class="offer-icon">🚀</div><div><small>عرض التوفير 2</small><h3>فطيرة لحمه + فطيرة فراخ + صاروخ سجق</h3><p>عرض خاص من كشري هند</p><strong>260 <small>جنيه</small></strong></div></article>
           <article class="offer-card"><div class="offer-icon">🥘</div><div><small>وجبات التوفير</small><h3>وجبة طاجن فراخ</h3><p>عيش + سلطة + أرز بلبن + بيبسي</p><strong>75 <small>جنيه</small></strong></div></article>
           <article class="offer-card"><div class="offer-icon">🥘</div><div><small>وجبات التوفير</small><h3>وجبة طاجن لحمة</h3><p>عيش + سلطة + أرز بلبن + بيبسي</p><strong>70 <small>جنيه</small></strong></div></article>
           <article class="offer-card"><div class="offer-icon">🍲</div><div><small>وجبات التوفير</small><h3>وجبة كشري هند</h3><p>عيش + سلطة + أرز بلبن + بيبسي</p><strong>45 <small>جنيه</small></strong></div></article>
@@ -93,13 +97,22 @@
       <div class="container">
         <div class="section-heading">
           <div><span class="eyebrow">اختار اللي نفسك فيه</span><h2>الـ <span>منيو</span></h2></div>
-          <div class="search-box">🔍 <input id="searchInput" placeholder="دور على أكلك..." oninput="renderMenu()"> <button id="clearSearch" onclick="clearSearchBox()" aria-label="مسح البحث">×</button></div>
+          <div class="search-box">🔍 <input id="searchInput" placeholder="دور على أكلك..." oninput="renderMenu()"></div>
         </div>
         <div class="filters" id="filters">
           <button class="active" data-filter="الكل">الكل</button>
           <button data-filter="كشري">كشري</button>
           <button data-filter="الطواجن">الطواجن</button>
           <button data-filter="وجبات سوري">وجبات سوري</button>
+          <button data-filter="صاروخ ايطالي">صاروخ ايطالي</button>
+          <button data-filter="اضافات الصاروخ">إضافات الصاروخ</button>
+          <button data-filter="نجرسكو">نجرسكو</button>
+          <button data-filter="الحواوشي">الحواوشي</button>
+          <button data-filter="الفراخ المشويه">فراخ مشوية</button>
+          <button data-filter="كريب لحوم">كريب لحوم</button>
+          <button data-filter="كريب بطاطس وجبن">كريب بطاطس وجبن</button>
+          <button data-filter="كريب فراخ">كريب فراخ</button>
+          <button data-filter="كريب حلو">كريب حلو</button>
           <button data-filter="حلو هند">حلو هند</button>
           <button data-filter="اضافات هند">اضافات هند</button>
         </div>
@@ -132,8 +145,6 @@
     <div class="copyright">© 2026 كشري هند — جميع الحقوق محفوظة</div>
   </footer>
 
-  <a href="tel:01210195153" class="floating-call" aria-label="اتصل الآن">📞</a>
-
   <div id="cartDrawer" class="cart-overlay" onclick="closeCart(event)">
     <aside class="cart-drawer" onclick="event.stopPropagation()">
       <div class="cart-head"><h2>سلة الطلب 🛒</h2><button onclick="closeCart()">×</button></div>
@@ -143,7 +154,7 @@
     </aside>
   </div>
 
-  <div id="toast" class="toast" aria-live="polite"></div>
+  <div id="toast" class="toast"></div>
   <script src="script.js"></script>
 </body>
 </html>
