@@ -28,63 +28,6 @@ const menu = [
   {n:"بطاطس سوري",c:"وجبات سوري",p:20,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/8c5d9485b13b2034dcb2436efbe418b2231852aa.jpg"},
   {n:"بطاطس سوري جبنه",c:"وجبات سوري",p:30,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/1328cbc1ac598a894242ad93c874e70ecee20796.jpg"},
   {n:"بانيه علي بطاطس",c:"وجبات سوري",p:25,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/8c5d9485b13b2034dcb2436efbe418b2231852aa.jpg"},
-  // ===== صاروخ ايطالي =====
-  {n:"صاروخ سجق",c:"صاروخ ايطالي",p:90,i:"https://kimi-web-img.moonshot.cn/img/img.ananinja.com/2bc6c9441110e3eb96b8764e4d737056bd231eca.jpg"},
-  {n:"صاروخ لحمه",c:"صاروخ ايطالي",p:90,i:"https://kimi-web-img.moonshot.cn/img/img.ananinja.com/2bc6c9441110e3eb96b8764e4d737056bd231eca.jpg"},
-  {n:"صاروخ مشكل لحوم",c:"صاروخ ايطالي",p:100,i:"https://kimi-web-img.moonshot.cn/img/img.ananinja.com/2bc6c9441110e3eb96b8764e4d737056bd231eca.jpg"},
-  {n:"صاروخ مشكل جبن",c:"صاروخ ايطالي",p:100,i:"https://kimi-web-img.moonshot.cn/img/img.ananinja.com/2bc6c9441110e3eb96b8764e4d737056bd231eca.jpg"},
-  {n:"صاروخ زنجر",c:"صاروخ ايطالي",p:95,i:"https://kimi-web-img.moonshot.cn/img/img.ananinja.com/2bc6c9441110e3eb96b8764e4d737056bd231eca.jpg"},
-  {n:"صاروخ شاورما",c:"صاروخ ايطالي",p:95,i:"https://kimi-web-img.moonshot.cn/img/img.ananinja.com/2bc6c9441110e3eb96b8764e4d737056bd231eca.jpg"},
-  {n:"صاروخ هند",c:"صاروخ ايطالي",p:110,i:"https://kimi-web-img.moonshot.cn/img/img.ananinja.com/2bc6c9441110e3eb96b8764e4d737056bd231eca.jpg"},
-  // ===== اضافات الصاروخ (same category so they show together) =====
-  {n:"➕ جبنة موتزريلا (صغير)",c:"صاروخ ايطالي",p:30,i:"https://kimi-web-img.moonshot.cn/img/palmyraorders.com/2cd85f2e146f243c52587e5fdd972d3148ca7cda.jpg"},
-  {n:"➕ جبنة موتزريلا (وسط)",c:"صاروخ ايطالي",p:40,i:"https://kimi-web-img.moonshot.cn/img/palmyraorders.com/2cd85f2e146f243c52587e5fdd972d3148ca7cda.jpg"},
-  {n:"➕ جبنة موتزريلا (كبير)",c:"صاروخ ايطالي",p:50,i:"https://kimi-web-img.moonshot.cn/img/palmyraorders.com/2cd85f2e146f243c52587e5fdd972d3148ca7cda.jpg"},
-  {n:"➕ اضافة لحوم (صغير)",c:"صاروخ ايطالي",p:35,i:"https://kimi-web-img.moonshot.cn/img/vid.alarabiya.net/e9404c6a641ed0f6aaf9d352a411f39be43f99f8.jpg"},
-  {n:"➕ اضافة لحوم (وسط)",c:"صاروخ ايطالي",p:45,i:"https://kimi-web-img.moonshot.cn/img/vid.alarabiya.net/e9404c6a641ed0f6aaf9d352a411f39be43f99f8.jpg"},
-  {n:"➕ اضافة لحوم (كبير)",c:"صاروخ ايطالي",p:55,i:"https://kimi-web-img.moonshot.cn/img/vid.alarabiya.net/e9404c6a641ed0f6aaf9d352a411f39be43f99f8.jpg"},
-  {n:"➕ اضافة باربيكيو",c:"صاروخ ايطالي",p:25,i:"https://kimi-web-img.moonshot.cn/img/media.zid.store/eca9a1d9ba746ef1a53c6e9f682a0157925cf6e6.PNG"},
-  {n:"➕ صوص شيدر",c:"صاروخ ايطالي",p:25,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/1328cbc1ac598a894242ad93c874e70ecee20796.jpg"},
-  // ===== نجرسكو =====
-  {n:"نجرسكو",c:"نجرسكو",p:90,i:"https://kimi-web-img.moonshot.cn/img/www.akla7elwa.com/7e5c713b271394ff9de15a708990f75fabdf00cb.jpg"},
-  {n:"بشاميل",c:"نجرسكو",p:50,i:"https://kimi-web-img.moonshot.cn/img/eatwellabi.com/d415cd08653dd9db9f647f637aa724945593c7e6.jpg"},
-  {n:"مكرونه جمبري",c:"نجرسكو",p:90,i:"https://kimi-web-img.moonshot.cn/img/img.youm7.com/ac32c4d72e53a5d8eccde6f3a37c1edf01ea7c52.jpg"},
-  // ===== الحواوشي =====
-  {n:"حواوشي لحمه كبير",c:"الحواوشي",p:40,i:"https://kimi-web-img.moonshot.cn/img/vid.alarabiya.net/e9404c6a641ed0f6aaf9d352a411f39be43f99f8.jpg"},
-  {n:"حواوشي لحمه موتزريلا كبير",c:"الحواوشي",p:55,i:"https://kimi-web-img.moonshot.cn/img/www.khalty.net/e3604b681d65f37168ddebf2499aab33051250ea.jpg"},
-  // ===== الفراخ المشويه =====
-  {n:"ربع فرخه ورك",c:"الفراخ المشويه",p:75,i:"https://kimi-web-img.moonshot.cn/img/www.eldahan.com/ce3140aa9d42485c510e37e14153124c1768a4ef.jpg"},
-  {n:"نصف فرخه",c:"الفراخ المشويه",p:160,i:"https://kimi-web-img.moonshot.cn/img/www.eldahan.com/99265e6a73b5870130fa0c845bb95f1f01e94fd9.jpg"},
-  {n:"ربع فرخه صدر",c:"الفراخ المشويه",p:85,i:"https://kimi-web-img.moonshot.cn/img/www.eldahan.com/e9a9bf220cbbb6cd9a82f55c5365dc24952d9f13.jpg"},
-  {n:"فرخه كامله",c:"الفراخ المشويه",p:300,i:"https://kimi-web-img.moonshot.cn/img/img.youm7.com/e13a2d27dfcb231b143d1bd20461e5313baadd3d.jpg"},
-  // ===== كريب لحوم =====
-  {n:"كريب شاورما لحمه",c:"كريب لحوم",p:70,i:"https://kimi-web-img.moonshot.cn/img/papai.online/c52fdda58635b0303d954daa0e99541f3376a190.png"},
-  {n:"كريب برجر",c:"كريب لحوم",p:60,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/11fe503b7641f5c568deab459ad01f2263ed3ccd.jpg"},
-  {n:"كريب كفته",c:"كريب لحوم",p:55,i:"https://kimi-web-img.moonshot.cn/img/www.khalty.net/6ea1028174a8c4849b616388486c827cef005bd4.webp"},
-  {n:"كريب سوسيس",c:"كريب لحوم",p:55,i:"https://kimi-web-img.moonshot.cn/img/img-global.cpcdn.com/9357be0040a6a7cdefc915df5fe4fc3d301bff49.jpg"},
-  {n:"كريب كفته سوسيس برجر",c:"كريب لحوم",p:70,i:"https://kimi-web-img.moonshot.cn/img/img.ananinja.com/45d24e873fcbdadb4e456a7125b3ce487f9d508d.png"},
-  {n:"كريب مشروم",c:"كريب لحوم",p:55,i:"https://kimi-web-img.moonshot.cn/img/media.gemini.media/a534eed6f19f7460bc81676f93dd37867469daf3.jpg"},
-  {n:"كريب مشكل لحوم",c:"كريب لحوم",p:80,i:"https://kimi-web-img.moonshot.cn/img/img.ananinja.com/45d24e873fcbdadb4e456a7125b3ce487f9d508d.png"},
-  {n:"كريب سجق",c:"كريب لحوم",p:60,i:"https://kimi-web-img.moonshot.cn/img/majesty.com.eg/88540b55a042f06686901e1f7f10490047f16ebd.png"},
-  // ===== كريب بطاطس وجبن =====
-  {n:"كريب بطاطس رول",c:"كريب بطاطس وجبن",p:45,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/8c5d9485b13b2034dcb2436efbe418b2231852aa.jpg"},
-  {n:"كريب بطاطس",c:"كريب بطاطس وجبن",p:35,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/8c5d9485b13b2034dcb2436efbe418b2231852aa.jpg"},
-  {n:"كريب بطاطس شيدر",c:"كريب بطاطس وجبن",p:50,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/1328cbc1ac598a894242ad93c874e70ecee20796.jpg"},
-  {n:"كريب مشكل جبن",c:"كريب بطاطس وجبن",p:45,i:"https://kimi-web-img.moonshot.cn/img/papai.online/9002b21dabd68a86e472795d70b2bbfc0032f62f.png"},
-  // ===== كريب فراخ =====
-  {n:"كريب بانيه",c:"كريب فراخ",p:60,i:"https://kimi-web-img.moonshot.cn/img/www.elqareanews.com/0385afcb2627466e6602e738a47995dfaf0ab81d.jpeg"},
-  {n:"كريب استربس",c:"كريب فراخ",p:70,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/160366531c6b88ef02497a2ca6c5c14385012cbf.jpg"},
-  {n:"كريب شاورما",c:"كريب فراخ",p:75,i:"https://kimi-web-img.moonshot.cn/img/papai.online/94e63da4c2d8cb36b6706a17c72c4291e1e664bc.png"},
-  {n:"كريب استربس + شيش",c:"كريب فراخ",p:80,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/160366531c6b88ef02497a2ca6c5c14385012cbf.jpg"},
-  {n:"كريب شاورما + استربس",c:"كريب فراخ",p:75,i:"https://kimi-web-img.moonshot.cn/img/papai.online/94e63da4c2d8cb36b6706a17c72c4291e1e664bc.png"},
-  {n:"كريب فاهيتا دجاج",c:"كريب فراخ",p:80,i:"https://kimi-web-img.moonshot.cn/img/cdn.supermama.me/349b93a1e4d1252417d93f99cb1587cca7fcabdd.webp"},
-  {n:"كريب مشكل فراخ",c:"كريب فراخ",p:80,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/160366531c6b88ef02497a2ca6c5c14385012cbf.jpg"},
-  {n:"كريب شيش",c:"كريب فراخ",p:75,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/de37fd344e60a43b8d9e4ef1a31ce025c0aeba3b.jpg"},
-  // ===== كريب حلو =====
-  {n:"كريب هوهوز + شيكولاته",c:"كريب حلو",p:40,i:"https://kimi-web-img.moonshot.cn/img/www.jonathangarnier.com/4ffb3bb060f41d2e20413f388d6baa16840feb95.jpg"},
-  {n:"كريب موز + شيكولاته",c:"كريب حلو",p:40,i:"https://kimi-web-img.moonshot.cn/img/kitchen.sayidaty.net/a4277754ba23bc7f636cc613e71834b69f9de9dc.jpg"},
-  {n:"كريب مكسرات + شيكولاته",c:"كريب حلو",p:50,i:"https://kimi-web-img.moonshot.cn/img/kitchen.sayidaty.net/5116c13417940069d8aca2d1b7126bb5ff51b070.jpg"},
-  {n:"كريب موز + مكسرات + عسل",c:"كريب حلو",p:55,i:"https://kimi-web-img.moonshot.cn/img/kitchen.sayidaty.net/5116c13417940069d8aca2d1b7126bb5ff51b070.jpg"},
   // ===== حلو هند =====
   {n:"ارز بلبن صغير",c:"حلو هند",p:15,i:"roz-blaban.png"},
   {n:"ارز بلبن كبير",c:"حلو هند",p:20,i:"roz-blaban.png"},
@@ -112,11 +55,16 @@ const menu = [
 ];
 
 let currentFilter = "الكل";
-let cart = [];
+let cart = []; // { i: index_in_menu, qty: number }
+
 const grid = document.getElementById("menuGrid");
 
 function renderMenu() {
   const q = (document.getElementById("searchInput")?.value || "").trim();
+  // Show/hide clear button
+  const clearBtn = document.getElementById("clearSearch");
+  if (clearBtn) clearBtn.style.display = q ? "inline-block" : "none";
+
   const data = menu.filter(x => {
     const matchFilter = currentFilter === "الكل" || x.c === currentFilter;
     const matchSearch = !q || x.n.includes(q) || x.c.includes(q);
@@ -124,13 +72,13 @@ function renderMenu() {
   });
 
   if (data.length === 0) {
-    grid.innerHTML = '<p style="color:#81c784;text-align:center;padding:40px;">مفيش نتائج مطابقة للبحث.</p>';
+    grid.innerHTML = '<p style="color:#666;text-align:center;padding:40px;">مفيش نتائج مطابقة للبحث.</p>';
     return;
   }
 
   grid.innerHTML = data.map(x => {
     const idx = menu.indexOf(x);
-    const fallback = "https://placehold.co/300x200/0d2818/e65100?text=" + encodeURIComponent(x.n) + "&font=cairo";
+    const fallback = "https://placehold.co/300x200/eeeeee/666666?text=" + encodeURIComponent(x.n) + "&font=cairo";
     return `
       <article class="menu-item">
         <div class="item-img-wrap">
@@ -166,40 +114,56 @@ function filterMenu(cat) {
 }
 
 function addToCart(i) {
-  cart.push(menu[i]);
+  const existing = cart.find(c => c.i === i);
+  if (existing) existing.qty++;
+  else cart.push({ i, qty: 1 });
   updateCart();
   showToast("اتضاف للسلة 🔥");
 }
 
 function updateCart() {
-  document.getElementById("cartCount").textContent = cart.length;
+  const totalCount = cart.reduce((a, c) => a + c.qty, 0);
+  const badge = document.getElementById("cartCount");
+  badge.textContent = totalCount;
+  badge.style.display = totalCount ? "inline-block" : "none";
 
   if (cart.length === 0) {
-    document.getElementById("cartItems").innerHTML = "<p style='color:#81c784;text-align:center;margin-top:50px'>السلة فاضية.. اطلب حاجة حلوة 😋</p>";
+    document.getElementById("cartItems").innerHTML =
+      "<p style='color:#666;text-align:center;margin-top:50px'>السلة فاضية.. اطلب حاجة حلوة 😋</p>";
   } else {
-    document.getElementById("cartItems").innerHTML = cart.map((x, i) => `
-      <div class="cart-line">
-        <div style="display:flex;align-items:center;gap:10px;">
-          <img src="${x.i}" class="cart-thumb" alt="" onerror="this.style.display='none'">
-          <div>
-            <b>${x.n}</b>
-            <small style="display:block;color:#81c784;">${x.c}</small>
+    document.getElementById("cartItems").innerHTML = cart.map((c, idx) => {
+      const x = menu[c.i];
+      return `
+        <div class="cart-line">
+          <div style="display:flex;align-items:center;gap:10px;">
+            <img src="${x.i}" class="cart-thumb" alt="" onerror="this.style.display='none'">
+            <div>
+              <b>${x.n}</b>
+              <small style="display:block;color:#666;">${x.c}</small>
+            </div>
           </div>
-        </div>
-        <div style="text-align:center;">
-          <b>${x.p} ج</b><br>
-          <button onclick="removeItem(${i})" style="background:#1b5e20;color:#fff;border:0;border-radius:7px;padding:5px 8px;cursor:pointer;margin-top:4px;">حذف</button>
-        </div>
-      </div>
-    `).join("");
+          <div class="qty-control">
+            <button onclick="changeQty(${idx},-1)">−</button>
+            <span>${c.qty}</span>
+            <button onclick="changeQty(${idx},1)">+</button>
+          </div>
+          <b>${x.p * c.qty} ج</b>
+        </div>`;
+    }).join("");
   }
 
-  const total = cart.reduce((a, x) => a + x.p, 0);
+  const total = cart.reduce((a, c) => a + menu[c.i].p * c.qty, 0);
   document.getElementById("cartTotal").textContent = total + " جنيه";
 }
 
-function removeItem(i) {
-  cart.splice(i, 1);
+function changeQty(idx, delta) {
+  cart[idx].qty += delta;
+  if (cart[idx].qty <= 0) cart.splice(idx, 1);
+  updateCart();
+}
+
+function removeItem(idx) {
+  cart.splice(idx, 1);
   updateCart();
 }
 
@@ -214,13 +178,12 @@ function closeCart(e) {
 }
 
 function checkout() {
-  if (!cart.length) {
-    showToast("السلة فاضية 😅");
-    return;
-  }
-  const total = cart.reduce((a, x) => a + x.p, 0);
-  const items = cart.map(x => x.n).join("، ");
-  const msg = encodeURIComponent(`مرحباً كشري هند 👋\nعايز أطلب: ${items}\nالإجمالي التقريبي: ${total} جنيه`);
+  if (!cart.length) { showToast("السلة فاضية 😅"); return; }
+  const total = cart.reduce((a, c) => a + menu[c.i].p * c.qty, 0);
+  const items = cart.map(c => `${menu[c.i].n} ×${c.qty}`).join("، ");
+  const msg = encodeURIComponent(`مرحباً كشري هند 👋
+عايز أطلب: ${items}
+الإجمالي التقريبي: ${total} جنيه`);
   window.open(`https://wa.me/201210195153?text=${msg}`, "_blank");
 }
 
@@ -233,6 +196,11 @@ function showToast(t) {
 
 function toggleMobileNav() {
   document.getElementById("mobileNav").classList.toggle("open");
+}
+
+function clearSearchBox() {
+  document.getElementById("searchInput").value = "";
+  renderMenu();
 }
 
 renderMenu();
