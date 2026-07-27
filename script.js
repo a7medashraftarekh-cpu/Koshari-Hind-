@@ -37,9 +37,9 @@ const menu = [
   {n:"صاروخ شاورما",c:"صاروخ ايطالي",p:95,i:"https://kimi-web-img.moonshot.cn/img/img.ananinja.com/2bc6c9441110e3eb96b8764e4d737056bd231eca.jpg"},
   {n:"صاروخ هند",c:"صاروخ ايطالي",p:110,i:"https://kimi-web-img.moonshot.cn/img/img.ananinja.com/2bc6c9441110e3eb96b8764e4d737056bd231eca.jpg"},
   // ===== اضافات الصاروخ (same category so they show together) =====
-  {n:"➕ جبنة موتزريلا (صغير)",c:"اضافات الصاروخ",p:30,i:"https://kimi-web-img.moonshot.cn/img/palmyraorders.com/2cd85f2e146f243c52587e5fdd972d3148ca7cda.jpg"},
-  {n:"➕ جبنة موتزريلا (وسط)",c:"اضافات الصاروخ",p:40,i:"https://kimi-web-img.moonshot.cn/img/palmyraorders.com/2cd85f2e146f243c52587e5fdd972d3148ca7cda.jpg"},
-  {n:"➕ جبنة موتزريلا (كبير)",c:"اضافات الصاروخ",p:50,i:"https://kimi-web-img.moonshot.cn/img/palmyraorders.com/2cd85f2e146f243c52587e5fdd972d3148ca7cda.jpg"},
+  {n:"➕ جبنة موتزريلا (صغير)",c:"اضافات الصاروخ",p:30,i:"https://kimi-web-img.moonshot.cn/img/www.shutterstock.com/def32bbbf27cf3db3e49f60eb432914653bf6842.jpg"},
+  {n:"➕ جبنة موتزريلا (وسط)",c:"اضافات الصاروخ",p:40,i:"https://kimi-web-img.moonshot.cn/img/www.shutterstock.com/def32bbbf27cf3db3e49f60eb432914653bf6842.jpg"},
+  {n:"➕ جبنة موتزريلا (كبير)",c:"اضافات الصاروخ",p:50,i:"https://kimi-web-img.moonshot.cn/img/www.shutterstock.com/def32bbbf27cf3db3e49f60eb432914653bf6842.jpg"},
   {n:"➕ اضافة لحوم (صغير)",c:"اضافات الصاروخ",p:35,i:"https://kimi-web-img.moonshot.cn/img/cdn.salla.sa/410fafec478e6238f873926f8382da261de23000.jpg"},
   {n:"➕ اضافة لحوم (وسط)",c:"اضافات الصاروخ",p:45,i:"https://kimi-web-img.moonshot.cn/img/cdn.salla.sa/410fafec478e6238f873926f8382da261de23000.jpg"},
   {n:"➕ اضافة لحوم (كبير)",c:"اضافات الصاروخ",p:55,i:"https://kimi-web-img.moonshot.cn/img/cdn.salla.sa/410fafec478e6238f873926f8382da261de23000.jpg"},
@@ -101,14 +101,14 @@ const menu = [
   {n:"عيش توست",c:"اضافات هند",p:10,i:"https://kimi-web-img.moonshot.cn/img/pickyeaterblog.com/dab5ea3a023d82b8583f304ca6f13a8f217d0173.jpg"},
   {n:"سلطة صغيرة",c:"اضافات هند",p:7,i:"https://kimi-web-img.moonshot.cn/img/kitchen.sayidaty.net/6b375a4ec4cb877faeca8981b46248c62fddec54.jpg"},
   {n:"سلطة كبيرة",c:"اضافات هند",p:10,i:"https://kimi-web-img.moonshot.cn/img/static.rashaqa.net/3118792391454ac998bee74b011b379d65f71bd8.jpg"},
-  {n:"تقلية",c:"اضافات هند",p:7,i:"https://kimi-web-img.moonshot.cn/img/cdn.salla.sa/0c2666ce469cb5e4725c77c10889c313b6cd47c0.jpg"},
-  {n:"حمص",c:"اضافات هند",p:7,i:"https://kimi-web-img.moonshot.cn/img/cdn.sanity.io/9c09c082175b2598aa422966d4982ca9e0e6ed0e.webp"},
-  {n:"صلصة",c:"اضافات هند",p:5,i:"https://kimi-web-img.moonshot.cn/img/media.zid.store/eca9a1d9ba746ef1a53c6e9f682a0157925cf6e6.PNG"},
+  {n:"تقلية",c:"اضافات هند",p:7,i:"https://kimi-web-img.moonshot.cn/img/hungryinthailand.com/7b5dd4bdb4947bf54dd0611a12256d500e623db1.webp"},
+  {n:"حمص",c:"اضافات هند",p:7,i:"https://kimi-web-img.moonshot.cn/img/shortgirltallorder.com/875af8868049243e421bd42f00b1a2cdd07f3ca7.jpg"},
+  {n:"صلصة",c:"اضافات هند",p:5,i:"https://kimi-web-img.moonshot.cn/img/img.youm7.com/974064ffa01d05192030b745cf830506a1cad56a.jpg"},
   {n:"عدس",c:"اضافات هند",p:7,i:"https://kimi-web-img.moonshot.cn/img/img.youm7.com/b66ac9745e04d0b9e0f5f7bc980de503814e2331.jpg"},
   {n:"شطة زيت",c:"اضافات هند",p:10,i:"https://kimi-web-img.moonshot.cn/img/cdn.salla.sa/7076983618cbd58d873e82174cc63f15939852e8.jpg"},
   {n:"دقة",c:"اضافات هند",p:5,i:"https://kimi-web-img.moonshot.cn/img/cdn.loveandlemons.com/67f6887592507ac95506b1da7cfad8c484a1a399.jpg"},
   {n:"إضافات شاورما",c:"اضافات هند",p:25,i:"https://kimi-web-img.moonshot.cn/img/www.sadia-life.com/ba0f355f8cd9fa437ce6c1ff72b22743d95d1a3d.jpg"},
-  {n:"إضافات موتزريلا",c:"اضافات هند",p:20,i:"https://kimi-web-img.moonshot.cn/img/palmyraorders.com/2cd85f2e146f243c52587e5fdd972d3148ca7cda.jpg"}
+  {n:"إضافات موتزريلا",c:"اضافات هند",p:20,i:"https://kimi-web-img.moonshot.cn/img/www.shutterstock.com/def32bbbf27cf3db3e49f60eb432914653bf6842.jpg"}
 ];
 
 let currentFilter = "الكل";
