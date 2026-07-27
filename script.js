@@ -28,6 +28,23 @@ const menu = [
   {n:"بطاطس سوري",c:"وجبات سوري",p:20,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/8c5d9485b13b2034dcb2436efbe418b2231852aa.jpg"},
   {n:"بطاطس سوري جبنه",c:"وجبات سوري",p:30,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/1328cbc1ac598a894242ad93c874e70ecee20796.jpg"},
   {n:"بانيه علي بطاطس",c:"وجبات سوري",p:25,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/8c5d9485b13b2034dcb2436efbe418b2231852aa.jpg"},
+  // ===== صاروخ ايطالي =====
+  {n:"صاروخ سجق",c:"صاروخ ايطالي",p:90,i:"https://kimi-web-img.moonshot.cn/img/img.ananinja.com/2bc6c9441110e3eb96b8764e4d737056bd231eca.jpg"},
+  {n:"صاروخ لحمه",c:"صاروخ ايطالي",p:90,i:"https://kimi-web-img.moonshot.cn/img/img.ananinja.com/2bc6c9441110e3eb96b8764e4d737056bd231eca.jpg"},
+  {n:"صاروخ مشكل لحوم",c:"صاروخ ايطالي",p:100,i:"https://kimi-web-img.moonshot.cn/img/img.ananinja.com/2bc6c9441110e3eb96b8764e4d737056bd231eca.jpg"},
+  {n:"صاروخ مشكل جبن",c:"صاروخ ايطالي",p:100,i:"https://kimi-web-img.moonshot.cn/img/img.ananinja.com/2bc6c9441110e3eb96b8764e4d737056bd231eca.jpg"},
+  {n:"صاروخ زنجر",c:"صاروخ ايطالي",p:95,i:"https://kimi-web-img.moonshot.cn/img/img.ananinja.com/2bc6c9441110e3eb96b8764e4d737056bd231eca.jpg"},
+  {n:"صاروخ شاورما",c:"صاروخ ايطالي",p:95,i:"https://kimi-web-img.moonshot.cn/img/img.ananinja.com/2bc6c9441110e3eb96b8764e4d737056bd231eca.jpg"},
+  {n:"صاروخ هند",c:"صاروخ ايطالي",p:110,i:"https://kimi-web-img.moonshot.cn/img/img.ananinja.com/2bc6c9441110e3eb96b8764e4d737056bd231eca.jpg"},
+  // ===== اضافات الصاروخ (same category so they show together) =====
+  {n:"➕ جبنة موتزريلا (صغير)",c:"صاروخ ايطالي",p:30,i:"https://kimi-web-img.moonshot.cn/img/palmyraorders.com/2cd85f2e146f243c52587e5fdd972d3148ca7cda.jpg"},
+  {n:"➕ جبنة موتزريلا (وسط)",c:"صاروخ ايطالي",p:40,i:"https://kimi-web-img.moonshot.cn/img/palmyraorders.com/2cd85f2e146f243c52587e5fdd972d3148ca7cda.jpg"},
+  {n:"➕ جبنة موتزريلا (كبير)",c:"صاروخ ايطالي",p:50,i:"https://kimi-web-img.moonshot.cn/img/palmyraorders.com/2cd85f2e146f243c52587e5fdd972d3148ca7cda.jpg"},
+  {n:"➕ اضافة لحوم (صغير)",c:"صاروخ ايطالي",p:35,i:"https://kimi-web-img.moonshot.cn/img/vid.alarabiya.net/e9404c6a641ed0f6aaf9d352a411f39be43f99f8.jpg"},
+  {n:"➕ اضافة لحوم (وسط)",c:"صاروخ ايطالي",p:45,i:"https://kimi-web-img.moonshot.cn/img/vid.alarabiya.net/e9404c6a641ed0f6aaf9d352a411f39be43f99f8.jpg"},
+  {n:"➕ اضافة لحوم (كبير)",c:"صاروخ ايطالي",p:55,i:"https://kimi-web-img.moonshot.cn/img/vid.alarabiya.net/e9404c6a641ed0f6aaf9d352a411f39be43f99f8.jpg"},
+  {n:"➕ اضافة باربيكيو",c:"صاروخ ايطالي",p:25,i:"https://kimi-web-img.moonshot.cn/img/media.zid.store/eca9a1d9ba746ef1a53c6e9f682a0157925cf6e6.PNG"},
+  {n:"➕ صوص شيدر",c:"صاروخ ايطالي",p:25,i:"https://kimi-web-img.moonshot.cn/img/hero-food.com/1328cbc1ac598a894242ad93c874e70ecee20796.jpg"},
   // ===== نجرسكو =====
   {n:"نجرسكو",c:"نجرسكو",p:90,i:"https://kimi-web-img.moonshot.cn/img/www.akla7elwa.com/7e5c713b271394ff9de15a708990f75fabdf00cb.jpg"},
   {n:"بشاميل",c:"نجرسكو",p:50,i:"https://kimi-web-img.moonshot.cn/img/eatwellabi.com/d415cd08653dd9db9f647f637aa724945593c7e6.jpg"},
