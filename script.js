@@ -37,9 +37,9 @@ const menu = [
   {n:"صاروخ شاورما",c:"صاروخ ايطالي",p:95,i:"https://kimi-web-img.moonshot.cn/img/img.ananinja.com/2bc6c9441110e3eb96b8764e4d737056bd231eca.jpg"},
   {n:"صاروخ هند",c:"صاروخ ايطالي",p:110,i:"https://kimi-web-img.moonshot.cn/img/img.ananinja.com/2bc6c9441110e3eb96b8764e4d737056bd231eca.jpg"},
   // ===== اضافات الصاروخ (same category so they show together) =====
-  {n:"➕ جبنة موتزريلا (صغير)",c:"اضافات الصاروخ",p:30,i:"https://kimi-web-img.moonshot.cn/img/www.shutterstock.com/def32bbbf27cf3db3e49f60eb432914653bf6842.jpg"},
-  {n:"➕ جبنة موتزريلا (وسط)",c:"اضافات الصاروخ",p:40,i:"https://kimi-web-img.moonshot.cn/img/www.shutterstock.com/def32bbbf27cf3db3e49f60eb432914653bf6842.jpg"},
-  {n:"➕ جبنة موتزريلا (كبير)",c:"اضافات الصاروخ",p:50,i:"https://kimi-web-img.moonshot.cn/img/www.shutterstock.com/def32bbbf27cf3db3e49f60eb432914653bf6842.jpg"},
+  {n:"➕ جبنة موتزريلا (صغير)",c:"اضافات الصاروخ",p:30,i:"https://kimi-web-img.moonshot.cn/img/images.stockcake.com/1bf041b22c6a498c0cbc617b9b8295b2325ab9d6.jpg"},
+  {n:"➕ جبنة موتزريلا (وسط)",c:"اضافات الصاروخ",p:40,i:"https://kimi-web-img.moonshot.cn/img/images.stockcake.com/1bf041b22c6a498c0cbc617b9b8295b2325ab9d6.jpg"},
+  {n:"➕ جبنة موتزريلا (كبير)",c:"اضافات الصاروخ",p:50,i:"https://kimi-web-img.moonshot.cn/img/images.stockcake.com/1bf041b22c6a498c0cbc617b9b8295b2325ab9d6.jpg"},
   {n:"➕ اضافة لحوم (صغير)",c:"اضافات الصاروخ",p:35,i:"https://kimi-web-img.moonshot.cn/img/cdn.salla.sa/410fafec478e6238f873926f8382da261de23000.jpg"},
   {n:"➕ اضافة لحوم (وسط)",c:"اضافات الصاروخ",p:45,i:"https://kimi-web-img.moonshot.cn/img/cdn.salla.sa/410fafec478e6238f873926f8382da261de23000.jpg"},
   {n:"➕ اضافة لحوم (كبير)",c:"اضافات الصاروخ",p:55,i:"https://kimi-web-img.moonshot.cn/img/cdn.salla.sa/410fafec478e6238f873926f8382da261de23000.jpg"},
@@ -108,7 +108,7 @@ const menu = [
   {n:"شطة زيت",c:"اضافات هند",p:10,i:"https://kimi-web-img.moonshot.cn/img/cdn.salla.sa/7076983618cbd58d873e82174cc63f15939852e8.jpg"},
   {n:"دقة",c:"اضافات هند",p:5,i:"https://kimi-web-img.moonshot.cn/img/cdn.loveandlemons.com/67f6887592507ac95506b1da7cfad8c484a1a399.jpg"},
   {n:"إضافات شاورما",c:"اضافات هند",p:25,i:"https://kimi-web-img.moonshot.cn/img/www.sadia-life.com/ba0f355f8cd9fa437ce6c1ff72b22743d95d1a3d.jpg"},
-  {n:"إضافات موتزريلا",c:"اضافات هند",p:20,i:"https://kimi-web-img.moonshot.cn/img/www.shutterstock.com/def32bbbf27cf3db3e49f60eb432914653bf6842.jpg"}
+  {n:"إضافات موتزريلا",c:"اضافات هند",p:20,i:"https://kimi-web-img.moonshot.cn/img/images.stockcake.com/1bf041b22c6a498c0cbc617b9b8295b2325ab9d6.jpg"}
 ];
 
 let currentFilter = "الكل";
