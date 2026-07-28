@@ -8,56 +8,56 @@ const menu = [
   {n:"كشري هند عائلي",c:"كشري",p:45,i:"https://kimi-web-img.moonshot.cn/img/img.youm7.com/fc9c57a455adb795860f0eeb07736c8598718a5a.jpg"},
   {n:"كشري هند جامبو",c:"كشري",p:50,i:"https://kimi-web-img.moonshot.cn/img/img.youm7.com/5beb6553a3a2b9171d6df178e56df1c6535664e0.jpg"},
   // ===== بيتزا شرقي =====
-  {n:"بيتزا سجق سمول",c:"بيتزا شرقي",p:85,i:"https://kimi-web-img.moonshot.cn/img/food.fnr.sndimg.com/0b3b538a7983166c8a7dee9314e066955f1df579.webp"},
-  {n:"بيتزا سجق ميديم",c:"بيتزا شرقي",p:110,i:"https://kimi-web-img.moonshot.cn/img/food.fnr.sndimg.com/0b3b538a7983166c8a7dee9314e066955f1df579.webp"},
-  {n:"بيتزا سجق لارج",c:"بيتزا شرقي",p:150,i:"https://kimi-web-img.moonshot.cn/img/food.fnr.sndimg.com/0b3b538a7983166c8a7dee9314e066955f1df579.webp"},
-  {n:"بيتزا لحمه سمول",c:"بيتزا شرقي",p:85,i:"https://kimi-web-img.moonshot.cn/img/www.thursdaynightpizza.com/89a74525cca0ff10d7229b7ecbad4d36215ce96b.png"},
-  {n:"بيتزا لحمه ميديم",c:"بيتزا شرقي",p:110,i:"https://kimi-web-img.moonshot.cn/img/www.thursdaynightpizza.com/89a74525cca0ff10d7229b7ecbad4d36215ce96b.png"},
-  {n:"بيتزا لحمه لارج",c:"بيتزا شرقي",p:150,i:"https://kimi-web-img.moonshot.cn/img/www.thursdaynightpizza.com/89a74525cca0ff10d7229b7ecbad4d36215ce96b.png"},
-  {n:"بيتزا سوسيس سمول",c:"بيتزا شرقي",p:85,i:"https://kimi-web-img.moonshot.cn/img/www.tasteofhome.com/2bdce269b806fd4c255069e4d9405c0948229e62.jpg"},
-  {n:"بيتزا سوسيس ميديم",c:"بيتزا شرقي",p:110,i:"https://kimi-web-img.moonshot.cn/img/www.tasteofhome.com/2bdce269b806fd4c255069e4d9405c0948229e62.jpg"},
-  {n:"بيتزا سوسيس لارج",c:"بيتزا شرقي",p:150,i:"https://kimi-web-img.moonshot.cn/img/www.tasteofhome.com/2bdce269b806fd4c255069e4d9405c0948229e62.jpg"},
-  {n:"بيتزا برجر سمول",c:"بيتزا شرقي",p:85,i:"https://kimi-web-img.moonshot.cn/img/hips.hearstapps.com/13ebccdbc18fd6fac78b7b80e2862748e21ce5ae.jpg"},
-  {n:"بيتزا برجر ميديم",c:"بيتزا شرقي",p:110,i:"https://kimi-web-img.moonshot.cn/img/hips.hearstapps.com/13ebccdbc18fd6fac78b7b80e2862748e21ce5ae.jpg"},
-  {n:"بيتزا برجر لارج",c:"بيتزا شرقي",p:150,i:"https://kimi-web-img.moonshot.cn/img/hips.hearstapps.com/13ebccdbc18fd6fac78b7b80e2862748e21ce5ae.jpg"},
-  {n:"بيتزا مشروم سمول",c:"بيتزا شرقي",p:85,i:"https://kimi-web-img.moonshot.cn/img/www.gozney.com/331085306643435e6105c63c044eb53e0c496cdf.jpg"},
-  {n:"بيتزا مشروم ميديم",c:"بيتزا شرقي",p:110,i:"https://kimi-web-img.moonshot.cn/img/www.gozney.com/331085306643435e6105c63c044eb53e0c496cdf.jpg"},
-  {n:"بيتزا مشروم لارج",c:"بيتزا شرقي",p:150,i:"https://kimi-web-img.moonshot.cn/img/www.gozney.com/331085306643435e6105c63c044eb53e0c496cdf.jpg"},
-  {n:"بيتزا بسطرمة سمول",c:"بيتزا شرقي",p:95,i:"https://kimi-web-img.moonshot.cn/img/cdn.shopify.com/11a8531bf00ad15ea5951ee2f03c8d64be49d94b.jpg"},
-  {n:"بيتزا بسطرمة ميديم",c:"بيتزا شرقي",p:120,i:"https://kimi-web-img.moonshot.cn/img/cdn.shopify.com/11a8531bf00ad15ea5951ee2f03c8d64be49d94b.jpg"},
-  {n:"بيتزا بسطرمة لارج",c:"بيتزا شرقي",p:165,i:"https://kimi-web-img.moonshot.cn/img/cdn.shopify.com/11a8531bf00ad15ea5951ee2f03c8d64be49d94b.jpg"},
-  {n:"بيتزا سوبر سوبريم سمول",c:"بيتزا شرقي",p:100,i:"https://kimi-web-img.moonshot.cn/img/dinnerthendessert.com/28eb2e45bf0059be9eb1752d2b78543e59289d55.jpg"},
-  {n:"بيتزا سوبر سوبريم ميديم",c:"بيتزا شرقي",p:125,i:"https://kimi-web-img.moonshot.cn/img/dinnerthendessert.com/28eb2e45bf0059be9eb1752d2b78543e59289d55.jpg"},
-  {n:"بيتزا سوبر سوبريم لارج",c:"بيتزا شرقي",p:170,i:"https://kimi-web-img.moonshot.cn/img/dinnerthendessert.com/28eb2e45bf0059be9eb1752d2b78543e59289d55.jpg"},
-  {n:"بيتزا مشكل جبن سمول",c:"بيتزا شرقي",p:95,i:"https://kimi-web-img.moonshot.cn/img/www.inspiredtaste.net/201142907cd8aeac44def5619afc82ded238c124.jpg"},
-  {n:"بيتزا مشكل جبن ميديم",c:"بيتزا شرقي",p:115,i:"https://kimi-web-img.moonshot.cn/img/www.inspiredtaste.net/201142907cd8aeac44def5619afc82ded238c124.jpg"},
-  {n:"بيتزا مشكل جبن لارج",c:"بيتزا شرقي",p:160,i:"https://kimi-web-img.moonshot.cn/img/www.inspiredtaste.net/201142907cd8aeac44def5619afc82ded238c124.jpg"},
-  {n:"بيتزا شاورما فراخ سمول",c:"بيتزا شرقي",p:95,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
-  {n:"بيتزا شاورما فراخ ميديم",c:"بيتزا شرقي",p:125,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
-  {n:"بيتزا شاورما فراخ لارج",c:"بيتزا شرقي",p:160,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
-  {n:"بيتزا ميكس فراخ سمول",c:"بيتزا شرقي",p:100,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
-  {n:"بيتزا ميكس فراخ ميديم",c:"بيتزا شرقي",p:135,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
-  {n:"بيتزا ميكس فراخ لارج",c:"بيتزا شرقي",p:170,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
-  {n:"بيتزا زنجر سمول",c:"بيتزا شرقي",p:95,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
-  {n:"بيتزا زنجر ميديم",c:"بيتزا شرقي",p:125,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
-  {n:"بيتزا زنجر لارج",c:"بيتزا شرقي",p:160,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
-  {n:"بيتزا شيش سمول",c:"بيتزا شرقي",p:95,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
-  {n:"بيتزا شيش ميديم",c:"بيتزا شرقي",p:125,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
-  {n:"بيتزا شيش لارج",c:"بيتزا شرقي",p:160,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
-  {n:"بيتزا تونه مفتته سمول",c:"بيتزا شرقي",p:95,i:"https://kimi-web-img.moonshot.cn/img/uk.ooni.com/40190936c4fec4dd0e8c11db6b028ecae381deef.jpg"},
-  {n:"بيتزا تونه مفتته ميديم",c:"بيتزا شرقي",p:120,i:"https://kimi-web-img.moonshot.cn/img/uk.ooni.com/40190936c4fec4dd0e8c11db6b028ecae381deef.jpg"},
-  {n:"بيتزا تونه مفتته لارج",c:"بيتزا شرقي",p:155,i:"https://kimi-web-img.moonshot.cn/img/uk.ooni.com/40190936c4fec4dd0e8c11db6b028ecae381deef.jpg"},
-  {n:"بيتزا تونه قطع ميديم",c:"بيتزا شرقي",p:135,i:"https://kimi-web-img.moonshot.cn/img/www.crunchtimekitchen.com/2d5383e48969194f9c0a02ef1819fb552f58da7a.jpg"},
-  {n:"بيتزا تونه قطع لارج",c:"بيتزا شرقي",p:170,i:"https://kimi-web-img.moonshot.cn/img/www.crunchtimekitchen.com/2d5383e48969194f9c0a02ef1819fb552f58da7a.jpg"},
-  {n:"بيتزا جمبري سمول",c:"بيتزا شرقي",p:105,i:"https://kimi-web-img.moonshot.cn/img/ooni.com/c3dc6ee658081cf918fc274769ada37f0c336dfb.jpg"},
-  {n:"بيتزا جمبري ميديم",c:"بيتزا شرقي",p:135,i:"https://kimi-web-img.moonshot.cn/img/ooni.com/c3dc6ee658081cf918fc274769ada37f0c336dfb.jpg"},
-  {n:"بيتزا جمبري لارج",c:"بيتزا شرقي",p:170,i:"https://kimi-web-img.moonshot.cn/img/ooni.com/c3dc6ee658081cf918fc274769ada37f0c336dfb.jpg"},
-  {n:"بيتزا سي فود سمول",c:"بيتزا شرقي",p:110,i:"https://kimi-web-img.moonshot.cn/img/cdn.personalchefana.com/43b2d9f261fe9ee34baf9f7b20021f3981699769.jpg"},
-  {n:"بيتزا سي فود ميديم",c:"بيتزا شرقي",p:140,i:"https://kimi-web-img.moonshot.cn/img/cdn.personalchefana.com/43b2d9f261fe9ee34baf9f7b20021f3981699769.jpg"},
-  {n:"بيتزا سي فود لارج",c:"بيتزا شرقي",p:180,i:"https://kimi-web-img.moonshot.cn/img/cdn.personalchefana.com/43b2d9f261fe9ee34baf9f7b20021f3981699769.jpg"},
-  {n:"بيتزا هند سمول",c:"بيتزا شرقي",p:115,i:"https://kimi-web-img.moonshot.cn/img/dinnerthendessert.com/28eb2e45bf0059be9eb1752d2b78543e59289d55.jpg"},
-  {n:"بيتزا هند ميديم",c:"بيتزا شرقي",p:145,i:"https://kimi-web-img.moonshot.cn/img/dinnerthendessert.com/28eb2e45bf0059be9eb1752d2b78543e59289d55.jpg"},
-  {n:"بيتزا هند لارج",c:"بيتزا شرقي",p:190,i:"https://kimi-web-img.moonshot.cn/img/dinnerthendessert.com/28eb2e45bf0059be9eb1752d2b78543e59289d55.jpg"},
+  {n:"بيتزا سجق (Small)",c:"بيتزا شرقي",p:85,i:"https://kimi-web-img.moonshot.cn/img/food.fnr.sndimg.com/0b3b538a7983166c8a7dee9314e066955f1df579.webp"},
+  {n:"بيتزا سجق (Medium)",c:"بيتزا شرقي",p:110,i:"https://kimi-web-img.moonshot.cn/img/food.fnr.sndimg.com/0b3b538a7983166c8a7dee9314e066955f1df579.webp"},
+  {n:"بيتزا سجق (Large)",c:"بيتزا شرقي",p:150,i:"https://kimi-web-img.moonshot.cn/img/food.fnr.sndimg.com/0b3b538a7983166c8a7dee9314e066955f1df579.webp"},
+  {n:"بيتزا لحمه (Small)",c:"بيتزا شرقي",p:85,i:"https://kimi-web-img.moonshot.cn/img/www.thursdaynightpizza.com/89a74525cca0ff10d7229b7ecbad4d36215ce96b.png"},
+  {n:"بيتزا لحمه (Medium)",c:"بيتزا شرقي",p:110,i:"https://kimi-web-img.moonshot.cn/img/www.thursdaynightpizza.com/89a74525cca0ff10d7229b7ecbad4d36215ce96b.png"},
+  {n:"بيتزا لحمه (Large)",c:"بيتزا شرقي",p:150,i:"https://kimi-web-img.moonshot.cn/img/www.thursdaynightpizza.com/89a74525cca0ff10d7229b7ecbad4d36215ce96b.png"},
+  {n:"بيتزا سوسيس (Small)",c:"بيتزا شرقي",p:85,i:"https://kimi-web-img.moonshot.cn/img/www.tasteofhome.com/2bdce269b806fd4c255069e4d9405c0948229e62.jpg"},
+  {n:"بيتزا سوسيس (Medium)",c:"بيتزا شرقي",p:110,i:"https://kimi-web-img.moonshot.cn/img/www.tasteofhome.com/2bdce269b806fd4c255069e4d9405c0948229e62.jpg"},
+  {n:"بيتزا سوسيس (Large)",c:"بيتزا شرقي",p:150,i:"https://kimi-web-img.moonshot.cn/img/www.tasteofhome.com/2bdce269b806fd4c255069e4d9405c0948229e62.jpg"},
+  {n:"بيتزا برجر (Small)",c:"بيتزا شرقي",p:85,i:"https://kimi-web-img.moonshot.cn/img/hips.hearstapps.com/13ebccdbc18fd6fac78b7b80e2862748e21ce5ae.jpg"},
+  {n:"بيتزا برجر (Medium)",c:"بيتزا شرقي",p:110,i:"https://kimi-web-img.moonshot.cn/img/hips.hearstapps.com/13ebccdbc18fd6fac78b7b80e2862748e21ce5ae.jpg"},
+  {n:"بيتزا برجر (Large)",c:"بيتزا شرقي",p:150,i:"https://kimi-web-img.moonshot.cn/img/hips.hearstapps.com/13ebccdbc18fd6fac78b7b80e2862748e21ce5ae.jpg"},
+  {n:"بيتزا مشروم (Small)",c:"بيتزا شرقي",p:85,i:"https://kimi-web-img.moonshot.cn/img/www.gozney.com/331085306643435e6105c63c044eb53e0c496cdf.jpg"},
+  {n:"بيتزا مشروم (Medium)",c:"بيتزا شرقي",p:110,i:"https://kimi-web-img.moonshot.cn/img/www.gozney.com/331085306643435e6105c63c044eb53e0c496cdf.jpg"},
+  {n:"بيتزا مشروم (Large)",c:"بيتزا شرقي",p:150,i:"https://kimi-web-img.moonshot.cn/img/www.gozney.com/331085306643435e6105c63c044eb53e0c496cdf.jpg"},
+  {n:"بيتزا بسطرمة (Small)",c:"بيتزا شرقي",p:95,i:"https://kimi-web-img.moonshot.cn/img/cdn.shopify.com/11a8531bf00ad15ea5951ee2f03c8d64be49d94b.jpg"},
+  {n:"بيتزا بسطرمة (Medium)",c:"بيتزا شرقي",p:120,i:"https://kimi-web-img.moonshot.cn/img/cdn.shopify.com/11a8531bf00ad15ea5951ee2f03c8d64be49d94b.jpg"},
+  {n:"بيتزا بسطرمة (Large)",c:"بيتزا شرقي",p:165,i:"https://kimi-web-img.moonshot.cn/img/cdn.shopify.com/11a8531bf00ad15ea5951ee2f03c8d64be49d94b.jpg"},
+  {n:"بيتزا سوبر سوبريم (Small)",c:"بيتزا شرقي",p:100,i:"https://kimi-web-img.moonshot.cn/img/dinnerthendessert.com/28eb2e45bf0059be9eb1752d2b78543e59289d55.jpg"},
+  {n:"بيتزا سوبر سوبريم (Medium)",c:"بيتزا شرقي",p:125,i:"https://kimi-web-img.moonshot.cn/img/dinnerthendessert.com/28eb2e45bf0059be9eb1752d2b78543e59289d55.jpg"},
+  {n:"بيتزا سوبر سوبريم (Large)",c:"بيتزا شرقي",p:170,i:"https://kimi-web-img.moonshot.cn/img/dinnerthendessert.com/28eb2e45bf0059be9eb1752d2b78543e59289d55.jpg"},
+  {n:"بيتزا مشكل جبن (Small)",c:"بيتزا شرقي",p:95,i:"https://kimi-web-img.moonshot.cn/img/www.inspiredtaste.net/201142907cd8aeac44def5619afc82ded238c124.jpg"},
+  {n:"بيتزا مشكل جبن (Medium)",c:"بيتزا شرقي",p:115,i:"https://kimi-web-img.moonshot.cn/img/www.inspiredtaste.net/201142907cd8aeac44def5619afc82ded238c124.jpg"},
+  {n:"بيتزا مشكل جبن (Large)",c:"بيتزا شرقي",p:160,i:"https://kimi-web-img.moonshot.cn/img/www.inspiredtaste.net/201142907cd8aeac44def5619afc82ded238c124.jpg"},
+  {n:"بيتزا شاورما فراخ (Small)",c:"بيتزا شرقي",p:95,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
+  {n:"بيتزا شاورما فراخ (Medium)",c:"بيتزا شرقي",p:125,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
+  {n:"بيتزا شاورما فراخ (Large)",c:"بيتزا شرقي",p:160,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
+  {n:"بيتزا ميكس فراخ (Small)",c:"بيتزا شرقي",p:100,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
+  {n:"بيتزا ميكس فراخ (Medium)",c:"بيتزا شرقي",p:135,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
+  {n:"بيتزا ميكس فراخ (Large)",c:"بيتزا شرقي",p:170,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
+  {n:"بيتزا زنجر (Small)",c:"بيتزا شرقي",p:95,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
+  {n:"بيتزا زنجر (Medium)",c:"بيتزا شرقي",p:125,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
+  {n:"بيتزا زنجر (Large)",c:"بيتزا شرقي",p:160,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
+  {n:"بيتزا شيش (Small)",c:"بيتزا شرقي",p:95,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
+  {n:"بيتزا شيش (Medium)",c:"بيتزا شرقي",p:125,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
+  {n:"بيتزا شيش (Large)",c:"بيتزا شرقي",p:160,i:"https://kimi-web-img.moonshot.cn/img/theodehlicious.com/ffab4fd8658004ea95e02470f8cdc4d4df3e1283.jpg"},
+  {n:"بيتزا تونه مفتته (Small)",c:"بيتزا شرقي",p:95,i:"https://kimi-web-img.moonshot.cn/img/uk.ooni.com/40190936c4fec4dd0e8c11db6b028ecae381deef.jpg"},
+  {n:"بيتزا تونه مفتته (Medium)",c:"بيتزا شرقي",p:120,i:"https://kimi-web-img.moonshot.cn/img/uk.ooni.com/40190936c4fec4dd0e8c11db6b028ecae381deef.jpg"},
+  {n:"بيتزا تونه مفتته (Large)",c:"بيتزا شرقي",p:155,i:"https://kimi-web-img.moonshot.cn/img/uk.ooni.com/40190936c4fec4dd0e8c11db6b028ecae381deef.jpg"},
+  {n:"بيتزا تونه قطع (Medium)",c:"بيتزا شرقي",p:135,i:"https://kimi-web-img.moonshot.cn/img/www.crunchtimekitchen.com/2d5383e48969194f9c0a02ef1819fb552f58da7a.jpg"},
+  {n:"بيتزا تونه قطع (Large)",c:"بيتزا شرقي",p:170,i:"https://kimi-web-img.moonshot.cn/img/www.crunchtimekitchen.com/2d5383e48969194f9c0a02ef1819fb552f58da7a.jpg"},
+  {n:"بيتزا جمبري (Small)",c:"بيتزا شرقي",p:105,i:"https://kimi-web-img.moonshot.cn/img/ooni.com/c3dc6ee658081cf918fc274769ada37f0c336dfb.jpg"},
+  {n:"بيتزا جمبري (Medium)",c:"بيتزا شرقي",p:135,i:"https://kimi-web-img.moonshot.cn/img/ooni.com/c3dc6ee658081cf918fc274769ada37f0c336dfb.jpg"},
+  {n:"بيتزا جمبري (Large)",c:"بيتزا شرقي",p:170,i:"https://kimi-web-img.moonshot.cn/img/ooni.com/c3dc6ee658081cf918fc274769ada37f0c336dfb.jpg"},
+  {n:"بيتزا سي فود (Small)",c:"بيتزا شرقي",p:110,i:"https://kimi-web-img.moonshot.cn/img/cdn.personalchefana.com/43b2d9f261fe9ee34baf9f7b20021f3981699769.jpg"},
+  {n:"بيتزا سي فود (Medium)",c:"بيتزا شرقي",p:140,i:"https://kimi-web-img.moonshot.cn/img/cdn.personalchefana.com/43b2d9f261fe9ee34baf9f7b20021f3981699769.jpg"},
+  {n:"بيتزا سي فود (Large)",c:"بيتزا شرقي",p:180,i:"https://kimi-web-img.moonshot.cn/img/cdn.personalchefana.com/43b2d9f261fe9ee34baf9f7b20021f3981699769.jpg"},
+  {n:"بيتزا هند (Small)",c:"بيتزا شرقي",p:115,i:"https://kimi-web-img.moonshot.cn/img/dinnerthendessert.com/28eb2e45bf0059be9eb1752d2b78543e59289d55.jpg"},
+  {n:"بيتزا هند (Medium)",c:"بيتزا شرقي",p:145,i:"https://kimi-web-img.moonshot.cn/img/dinnerthendessert.com/28eb2e45bf0059be9eb1752d2b78543e59289d55.jpg"},
+  {n:"بيتزا هند (Large)",c:"بيتزا شرقي",p:190,i:"https://kimi-web-img.moonshot.cn/img/dinnerthendessert.com/28eb2e45bf0059be9eb1752d2b78543e59289d55.jpg"},
   // ===== الطواجن =====
   {n:"طاجن فراخ",c:"الطواجن",p:40,i:"https://kimi-web-img.moonshot.cn/img/img.youm7.com/fcc8fd7582457a8fa24b782c7da61c88ed83d829.jfif"},
   {n:"طاجن لحمه",c:"الطواجن",p:35,i:"https://kimi-web-img.moonshot.cn/img/elwasfa.com/0b8cbc9acd9617f37160a326ba8072b3b262c0a4.jpg"},
@@ -251,6 +251,8 @@ function addOfferToCart(i) {
 function updateCart() {
   const totalQty = cart.reduce((a, c) => a + c.qty, 0);
   document.getElementById("cartCount").textContent = totalQty;
+  const mobCount = document.getElementById("cartCountMob");
+  if (mobCount) mobCount.textContent = totalQty;
 
   if (cart.length === 0) {
     document.getElementById("cartItems").innerHTML = "<p style='color:#81c784;text-align:center;margin-top:50px'>السلة فاضية.. اطلب حاجة حلوة 😋</p>";
@@ -316,6 +318,28 @@ function showToast(t) {
 function toggleMobileNav() {
   document.getElementById("mobileNav").classList.toggle("open");
 }
+
+function toggleTheme() {
+  document.body.classList.toggle('alt-theme');
+  const btn = document.getElementById('themeBtn');
+  const mobBtn = document.getElementById('mobileThemeBtn');
+  const isAlt = document.body.classList.contains('alt-theme');
+  const label = isAlt ? '🌙' : '☀️';
+  if (btn) btn.textContent = label;
+  if (mobBtn) mobBtn.textContent = label + ' تبديل الألوان';
+  localStorage.setItem('koshary-theme', isAlt ? 'alt' : 'default');
+}
+
+(function initTheme() {
+  const saved = localStorage.getItem('koshary-theme');
+  if (saved === 'alt') {
+    document.body.classList.add('alt-theme');
+    const btn = document.getElementById('themeBtn');
+    const mobBtn = document.getElementById('mobileThemeBtn');
+    if (btn) btn.textContent = '🌙';
+    if (mobBtn) mobBtn.textContent = '🌙 تبديل الألوان';
+  }
+})();
 
 renderMenu();
 updateCart();

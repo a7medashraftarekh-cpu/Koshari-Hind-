@@ -25,11 +25,14 @@
         <a href="#offers">العروض</a>
         <a href="#contact">الفروع</a>
       </nav>
+      <button class="theme-btn" id="themeBtn" onclick="toggleTheme()">☀️</button>
       <button class="cart-btn" onclick="openCart()">🛒 <span>السلة</span><b id="cartCount">0</b></button>
       <button class="menu-toggle" onclick="toggleMobileNav()">☰</button>
     </div>
     <div id="mobileNav" class="mobile-nav">
       <a href="#home">الرئيسية</a><a href="#menu">المنيو</a><a href="#offers">العروض</a><a href="#contact">الفروع</a>
+      <button class="mobile-cart-btn" onclick="openCart();toggleMobileNav()">🛒 السلة <b id="cartCountMob">0</b></button>
+      <button class="mobile-theme-btn" id="mobileThemeBtn" onclick="toggleTheme()">☀️ تبديل الألوان</button>
     </div>
   </header>
 
