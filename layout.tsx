@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+const siteUrl = "https://koshary-hind.vercel.app";
+
 export const metadata: Metadata = {
   title: "كشري هند | مطعم الأكل الأصيل في مغاغة منذ 1992",
   description:
@@ -25,7 +27,7 @@ export const metadata: Metadata = {
     "ام علي",
     "مهلبية",
   ],
-  metadataBase: new URL("https://koshary-hind.vercel.app"),
+  metadataBase: new URL(siteUrl),
   alternates: {
     canonical: "/",
   },
@@ -33,16 +35,17 @@ export const metadata: Metadata = {
     title: "كشري هند | مطعم الأكل الأصيل في مغاغة منذ 1992",
     description:
       "كشري هند مغاغة - مطعم الأكل الأصيل منذ 1992. نقدم كشري، بيتزا شرقي، مشويات، كريب، حواوشي، نجرسكو، وجبات سوري.",
-    url: "https://koshary-hind.vercel.app",
+    url: siteUrl,
     siteName: "كشري هند",
     locale: "ar_EG",
     type: "website",
     images: [
       {
-        url: "/logo.png",
+        url: `${siteUrl}/logo.png`,
         width: 800,
         height: 800,
         alt: "شعار كشري هند - مطعم الأكل الأصيل في مغاغة",
+        type: "image/png",
       },
     ],
   },
@@ -51,7 +54,7 @@ export const metadata: Metadata = {
     title: "كشري هند | مطعم الأكل الأصيل في مغاغة منذ 1992",
     description:
       "كشري هند مغاغة - مطعم الأكل الأصيل منذ 1992. نقدم كشري، بيتزا شرقي، مشويات، كريب، حواوشي، نجرسكو، وجبات سوري.",
-    images: ["/logo.png"],
+    images: [`${siteUrl}/logo.png`],
   },
   robots: {
     index: true,
