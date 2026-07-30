@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "ام علي",
     "مهلبية",
   ],
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(koshari-hind-production.up.railway.app),
   alternates: {
     canonical: "/",
   },
