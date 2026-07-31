@@ -1,13 +1,17 @@
 import ClientPage from "./ClientPage";
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL
+  ? process.env.NEXT_PUBLIC_SITE_URL.replace(/\/$/, "")
+  : "https://example.com";
+
 export default function Home() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Restaurant",
     name: "كشري هند",
-    image: "https://koshary-hind.vercel.app/logo.png",
-    "@id": "https://koshary-hind.vercel.app",
-    url: "https://koshary-hind.vercel.app",
+    image: `${siteUrl}/logo.png`,
+    "@id": siteUrl,
+    url: siteUrl,
     telephone: ["+201210195153", "+201015061338", "+201206500071", "+201116816266"],
     address: {
       "@type": "PostalAddress",
@@ -53,7 +57,7 @@ export default function Home() {
       ratingValue: "4.8",
       reviewCount: "1250",
     },
-    menu: "https://koshary-hind.vercel.app/#menu",
+    menu: `${siteUrl}/#menu`,
     acceptsReservations: "False",
     currenciesAccepted: "EGP",
     paymentAccepted: "Cash, Visa",
@@ -65,7 +69,7 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <link rel="canonical" href="https://koshary-hind.vercel.app" />
+      <link rel="canonical" href={siteUrl} />
       <ClientPage />
     </>
   );
