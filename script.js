@@ -172,6 +172,15 @@ const menu = [
   {n:"فطيرة شيكولاتة وموز (Large)",c:"فطير حلو",p:125,i:"https://kimi-web-img.moonshot.cn/img/www.halfbakedharvest.com/7bb9b31d805437363655af81d7fefb8af5af2ca7.jpg"},
   {n:"فطيرة مشلتت (Medium)",c:"فطير حلو",p:110,i:"https://kimi-web-img.moonshot.cn/img/akispetretzikis.com/88d650ccc72f66027d251d9ab3848f71e2f1ca4d.jpg"},
   {n:"فطيرة مشلتت (Large)",c:"فطير حلو",p:140,i:"https://kimi-web-img.moonshot.cn/img/akispetretzikis.com/88d650ccc72f66027d251d9ab3848f71e2f1ca4d.jpg"},
+  // ===== فطير الكيري =====
+  {n:"فطيرة سجق كيري (Medium)",c:"فطير الكيري",p:125,i:"https://kimi-web-img.moonshot.cn/img/img.taste.com.au/4c7274afd92936e601bcac780e17dc802310f0a4.jpeg"},
+  {n:"فطيرة سجق كيري (Large)",c:"فطير الكيري",p:165,i:"https://kimi-web-img.moonshot.cn/img/img.taste.com.au/4c7274afd92936e601bcac780e17dc802310f0a4.jpeg"},
+  {n:"فطيرة بسطرمة (Medium)",c:"فطير الكيري",p:135,i:"https://kimi-web-img.moonshot.cn/img/w2.chabad.org/c12eeba822734a8f4140e89d792fc226224c214d.jpg"},
+  {n:"فطيرة بسطرمة (Large)",c:"فطير الكيري",p:175,i:"https://kimi-web-img.moonshot.cn/img/w2.chabad.org/c12eeba822734a8f4140e89d792fc226224c214d.jpg"},
+  {n:"فطيرة فراخ كيري (Medium)",c:"فطير الكيري",p:140,i:"https://kimi-web-img.moonshot.cn/img/www.allrecipes.com/fadb01c26584164f8ccdbdb343b77eaaeee89c99.jpg"},
+  {n:"فطيرة فراخ كيري (Large)",c:"فطير الكيري",p:185,i:"https://kimi-web-img.moonshot.cn/img/www.allrecipes.com/fadb01c26584164f8ccdbdb343b77eaaeee89c99.jpg"},
+  {n:"فطيرة سجق وبسطرمة وكيري (Medium)",c:"فطير الكيري",p:145,i:"https://kimi-web-img.moonshot.cn/img/www.thespruceeats.com/be4696b6c73d943964f4150ca15b5283e1b01110.jpg"},
+  {n:"فطيرة سجق وبسطرمة وكيري (Large)",c:"فطير الكيري",p:180,i:"https://kimi-web-img.moonshot.cn/img/www.thespruceeats.com/be4696b6c73d943964f4150ca15b5283e1b01110.jpg"},
   // ===== الطواجن =====
   {n:"طاجن فراخ",c:"الطواجن",p:40,i:"https://kimi-web-img.moonshot.cn/img/img.youm7.com/fcc8fd7582457a8fa24b782c7da61c88ed83d829.jfif"},
   {n:"طاجن لحمه",c:"الطواجن",p:35,i:"https://kimi-web-img.moonshot.cn/img/elwasfa.com/0b8cbc9acd9617f37160a326ba8072b3b262c0a4.jpg"},
