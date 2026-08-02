@@ -1,8 +1,0 @@
-[phases.setup]
-nixPkgs = ["python311"]
-
-[phases.build]
-cmds = []
-
-[start]
-cmd = "python -m http.server $PORT"
